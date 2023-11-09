@@ -1,0 +1,102 @@
+h1 {
+    color: rgb(23, 13, 13);
+    background-color: rgb(224, 224, 21);
+    font-size: 60px;
+    background-size: 200px;
+    padding-left: 50px;
+    
+}
+h2 {
+    
+    padding-left: 30px;
+    color: yellow;
+    background-color: rgb(216, 210, 210);
+    font-size: 50px;
+}
+.WDR-image {
+    height: 500px;
+    width: 1200px;
+    
+    }
+.image-information{
+    color: rgb(137, 58, 58);
+    font-size: smaller;
+    padding-left: 20px;
+
+}
+a {
+    color: chocolate;
+    background-color: whitesmoke;
+    text-decoration-line: unset;
+}
+
+ul{
+    list-style: none;
+    margin: 180px;
+    margin-top: 60px;
+    padding: 0px;
+    
+    
+}
+li {
+    font-size: 30px;
+    font-style: italic;/*gjør styling på hvordan det ser ut */
+}
+p{ 
+    font-size: 20px;
+}
+h3 { 
+    transform: translateY(-100px); /*plytte det til oppover */
+    margin: 180px;    
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.hoved-tekst {
+    transform: translateY(-240px);
+    margin: 180px;
+    line-height: 50px;
+    
+}  
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    padding: 30px;
+    
+}
+footer {
+    padding: 10px;
+    
+}
+
+
+
+.norske-leksikon {
+    width: 100px;
+    height: 100px;
+}
+.regjering-logo {
+    width: 100px;
+    height: 100px;
+}
+.university-bergen-norway {
+    width: 100px;
+    height: 100px;
+}
+.kilder-styling {
+    background-color: beige;
+    background-size: 200px;
+    
+}
+.kilde-linker {
+    padding-top: 5px;
+    color: brown;
+    }
+
+ 
+
+
+
