@@ -1,20 +1,22 @@
 
+body {
+    background-color:rgb(100, 100, 106);
+}
 
 
 h1 {
     color: black;
-    font-size: 60px;
-    background-size: 200px;
+    font-size: 55px;
     padding-left: 50px;
-    
     
 }
 h2 {
     
-    padding-left: 30px;
-    color: black;
-    font-size: 50px;
+    padding-left: 50px;
+    color: rgb(60, 54, 54);
+    font-size: 40px;
 }
+
 .Top-image {
     height: 30%;
     width: 100%;
@@ -26,8 +28,8 @@ h2 {
 
 }
 a {
-    color: rgb(132, 132, 183);
-    background-color: whitesmoke;
+    color: rgb(78, 78, 166);
+    
     text-decoration-line: unset;
 }
 
@@ -62,7 +64,7 @@ h4, h5, h6{
 .wrapper{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color:rgb(129, 129, 120);
+    
     border-radius: 5px;
     padding: 30px;
     
@@ -73,6 +75,8 @@ footer {
 }
 .valg-bildet {
     height: 50%;
+    padding-top: 250px;
+    padding-left: 30px;
 }
 
 
@@ -93,17 +97,27 @@ footer {
     padding: 20px;
 }
 .kilder-styling {
-    background-color: rgb(142, 123, 87);
+    background-color:rgb(49, 49, 44);
     background-size: 200px;
     
 }
 .kilde-linker {
     padding-top: 5px;
-    color: brown;
+    
     }
 .kunstig-intelligens {
     height: 90%;
     width: 100%;
+}
+.AI-bildet {
+    height: 100%;
+}
+.AI-1-bildet {
+    height: 80%;
+    width: 70%;
+    padding-left: 100px;
+    padding-top: 40px;
+    
 }
  
 
