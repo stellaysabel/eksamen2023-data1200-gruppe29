@@ -1,23 +1,24 @@
+
+
+
 h1 {
-    color: rgb(23, 13, 13);
-    background-color: rgb(224, 224, 21);
+    color: black;
     font-size: 60px;
     background-size: 200px;
     padding-left: 50px;
+    background-color: rgba(137, 43, 226, 0.137);
     
 }
 h2 {
     
     padding-left: 30px;
-    color: yellow;
-    background-color: rgb(216, 210, 210);
+    color: black;
     font-size: 50px;
 }
-.WDR-image {
-    height: 500px;
-    width: 1200px;
-    
-    }
+.Top-image {
+    height: 30%;
+    width: 100%;
+}
 .image-information{
     color: rgb(53, 52, 52);
     font-size: smaller;
@@ -32,9 +33,7 @@ a {
 
 ul{
     list-style: none;
-    margin: 180px;
-    margin-top: 60px;
-    padding: 0px;
+
     
     
 }
@@ -46,14 +45,16 @@ p{
     font-size: 20px;
 }
 h3 { 
-    transform: translateY(-100px); /*plytte det til oppover */
-    margin: 180px;    
+
     padding: 0px;
-    margin-bottom: 20px;
+    line-height: 2;
+}
+
+h4, h5, h6{
+    font-size: large;
 }
 .hoved-tekst {
-    transform: translateY(-240px);
-    margin: 180px;
+    
     line-height: 50px;
     
 }  
@@ -61,8 +62,7 @@ h3 {
 .wrapper{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 30px;
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(247, 246, 246);
     border-radius: 5px;
     padding: 30px;
     
@@ -70,6 +70,9 @@ h3 {
 footer {
     padding: 10px;
     
+}
+.valg-bildet {
+    height: 50%;
 }
 
 
@@ -98,7 +101,10 @@ footer {
     padding-top: 5px;
     color: brown;
     }
-
+.kunstig-intelligens {
+    height: 90%;
+    width: 100%;
+}
  
 
 
