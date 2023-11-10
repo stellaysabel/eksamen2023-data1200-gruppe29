@@ -11,3 +11,6 @@
     clear: both;
     display: table;
   }
+
+  style
+  p {text-align: center;}
