@@ -1,6 +1,6 @@
 
 body {
-    background-color:rgb(100, 100, 106);
+    background-color:rgb(147, 141, 144);
 }
 
 
@@ -18,7 +18,7 @@ h2 {
 }
 
 .Top-image {
-    height: 30%;
+    height: 500px;
     width: 100%;
 }
 .image-information{
@@ -97,7 +97,7 @@ footer {
     padding: 20px;
 }
 .kilder-styling {
-    background-color:rgb(49, 49, 44);
+    background-color:rgba(49, 49, 44, 0.178);
     background-size: 200px;
     
 }
@@ -110,16 +110,35 @@ footer {
     width: 100%;
 }
 .AI-bildet {
-    height: 100%;
+    height: 80%;
+    width: 90%;
 }
 .AI-1-bildet {
     height: 80%;
-    width: 70%;
+    width: 80%;
     padding-left: 100px;
     padding-top: 40px;
     
 }
- 
+.A1-bildet-link {
+    padding-left: 100px;
+}
+.valg-link{
+    padding-left: 30px;
+}
+.AI-3-bildet {
+    height: 300px;
+    width: 500px;
+    
+    
+}
+
+
+
+
+    
+
+
 
 
 
