@@ -11,3 +11,24 @@
     clear: both;
     display: table;
   }
+
+  .nav{
+    background-color: rgba(32, 32, 44, 0);
+    overflow: hidden;
+    flex-direction: row;
+    width: 100%;
+    margin: 30px;
+  }
+  
+  .nav a{
+    float: left;
+    color: rgb(173, 172, 172);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  
+  .nav a:hover{
+    color: rgb(252, 252, 252);
+  }
