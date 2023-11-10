@@ -1,6 +1,6 @@
 
 body {
-    background-color:rgb(147, 141, 144);
+    background-color:rgba(189, 189, 200, 0.916);
 }
 
 
@@ -22,7 +22,7 @@ h2 {
     width: 100%;
 }
 .image-information{
-    color: rgb(53, 52, 52);
+    color: rgb(78, 78, 166);
     font-size: smaller;
     padding-left: 20px;
 
@@ -57,7 +57,7 @@ h4, h5, h6{
 }
 .hoved-tekst {
     
-    line-height: 50px;
+    line-height: 30px;
     
 }  
 
@@ -74,9 +74,10 @@ footer {
     
 }
 .valg-bildet {
-    height: 50%;
-    padding-top: 250px;
-    padding-left: 30px;
+    height: 70%;
+    width: 80%;
+    padding-top: 100px;
+    padding-left: 80px;
 }
 
 
@@ -97,7 +98,7 @@ footer {
     padding: 20px;
 }
 .kilder-styling {
-    background-color:rgba(49, 49, 44, 0.178);
+    background-color:rgba(70, 70, 68, 0.178);
     background-size: 200px;
     
 }
@@ -112,19 +113,20 @@ footer {
 .AI-bildet {
     height: 80%;
     width: 90%;
+    padding-top: 30px;
 }
 .AI-1-bildet {
     height: 80%;
     width: 80%;
     padding-left: 100px;
-    padding-top: 40px;
+    padding-top: 20px;
     
 }
 .A1-bildet-link {
     padding-left: 100px;
 }
 .valg-link{
-    padding-left: 30px;
+    padding-left: 80px;
 }
 .AI-3-bildet {
     height: 300px;
