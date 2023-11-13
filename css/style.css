@@ -1,16 +1,17 @@
 
-body {
+.Fake-news-body {
     background-color:rgba(189, 189, 200, 0.916);
 }
 
 
-h1 {
+
+.Fake-news-h1 {
     color: black;
     font-size: 55px;
     padding-left: 50px;
     
 }
-h2 {
+.Fake-news-h2{
     
     padding-left: 50px;
     color: rgb(60, 54, 54);
@@ -25,13 +26,14 @@ h2 {
     color: rgb(78, 78, 166);
     font-size: smaller;
     padding-left: 20px;
+    text-decoration-line: unset;
 
 }
-a {
-    color: rgb(78, 78, 166);
+
     
-    text-decoration-line: unset;
-}
+    
+   
+
 
 ul{
     list-style: none;
@@ -124,15 +126,27 @@ footer {
 }
 .A1-bildet-link {
     padding-left: 100px;
+    text-decoration-line: unset;
 }
 .valg-link{
     padding-left: 80px;
+    text-decoration-line: unset;
 }
 .AI-3-bildet {
     height: 300px;
     width: 500px;
     
     
+}
+.f-linker {
+    color: rgb(78, 78, 166);
+    text-decoration-line: unset;
+
+
+}
+.AI-link {
+    text-decoration-line: unset;
+
 }
 
 
