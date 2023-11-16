@@ -163,5 +163,226 @@ h4, h5, h6{
     text-decoration-line: unset;
 
 }
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*changes the text font over the whole website to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+  height: 1000px; /* Used to enable scrolling */
+  background-color:rgba(2, 2, 25, 0.916);/*#3a4454; Used to change the background color of the website */
+  display: flex; /* sets your container to be a flexbox element */
+  flex-direction: column; /*sets how the flex items are placed in the flex container*/
+  margin: 0;
+}
+
+.nav{
+  background-color: rgba(32, 32, 44, 0);/*changes the background color in the navigation bar*/
+  overflow: hidden; /*Used to prevent unwanted horizontal scrolling and extra whitespace in your project*/
+  flex-direction: row; /*sets how flex items are places in the flex container*/
+  width: 100%;/*Means navigation page is the same width as the parent element*/
+  margin: 0px 50px 75px 0px;/* Margin properties are used to crate space around elemetns outside of any defines borders https://www.w3schools.com/css/css_margin.asp*/
+}
+
+.nav a{
+  float: left; /*places an element on the left or right side of its container*/
+  color: rgb(173, 172, 172);/*Changes color of the text*/
+  text-align: center;/* Text is located in the center */
+  padding: 40px 0px 0px 30px; /*  */
+  text-decoration: none;  
+  font-size: 1.5em;
+} 
+
+.nav a:hover{
+  color: rgb(252, 252, 252);
+}
+
+.main-page-container{
+  position: relative;
+  text-align: center;
+  opacity: value;
+}
+
+.main-page-background{
+  background-image: url(/img/photoeditoroslomet.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  object-fit: cover;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+}
+
+.main-page-heading{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:floralwhite;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+main{
+  margin-top: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 1000px;
+  color:white;
+  align-items: center;
+}
+
+.intro-container {
+  padding: 150px;
+}
+
+.heading-intro{
+  text-align: center;
+}
+
+.oslomet-intro{
+  font-size: larger;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  line-height: 2;
+}
+
+.picture-link-campus{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-gap: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive-campus {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive-campus {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive-campus {
+    width: 100%;
+  }
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+ 
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 500%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 200px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.item-left-a {
+  display: flex;
+  flex-direction: column;
+  background-color:rgba(35, 35, 93, 0.355);
+  flex: 50%;
+  align-items: center; 
+  padding: 50px;
+  justify-content: center;
+}
+
+.item-right-a {
+  display: flex;
+  flex-direction: column;
+  background-color: #93a8acb4 ;
+  padding: 70px;
+  flex: 50%;
+  align-items: center;
+}
+
+.item-right-a img{
+  padding-bottom: 50px;
+}
+
+.button {
+  background-color: #d4f5f5;
+  border: wheat;
+  border-radius: 10px;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.item-right-f img{
+  padding-bottom: 5px;
+  height: auto;
+  width: 600px;
+}
+.item-right-f {
+  display: flex;
+  flex-direction: column;
+  background-color: #93A8AC ;
+  padding: 70px;
+  flex: 50%;
+  align-items: center;
+}
+
+.item-left-f {
+  display: flex;
+  flex-direction: column;
+  background-color:rgba(35, 35, 93, 0.355);
+  flex: 50%;
+  align-items: center; 
+  padding: 50px;
+  justify-content: center;
+  
+}
+
+@media (max-width: 800px) {
+  .fake-news-container {
+    flex-direction: column;
+  }
+}
+
+.contact{
+  color: white;
+  background-color: rgba(2, 2, 25, 0.232);
+}
 
 
