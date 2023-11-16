@@ -1,11 +1,167 @@
 .row {
   display: flex;
 }
-
 .column {
   flex: 1;
   padding: 5px;
 }
-        
+.Fake-news-body {
+    background-color: rgba(221, 206, 219, 0.726);
+}
 
- 
+
+
+.Fake-news-h1 {
+    color: black;
+    font-size: 55px;
+    padding-left: 50px;
+    
+}
+.Fake-news-h2{
+    
+    padding-left: 50px; 
+    color: rgb(60, 54, 54);
+    font-size: 40px;
+}
+
+.Top-image {
+    height: 500px;
+    width: 100%;
+}
+.image-information{
+    color: rgb(78, 78, 166);
+    font-size: smaller;
+    padding-left: 20px;
+    text-decoration-line: unset; /*for å fjrne linje under linken */
+
+}
+
+    
+    
+   
+
+
+ul{
+    list-style: none; /* for å ikke ha noe ved siden liste liksom punkter */
+
+    
+    
+}
+li {
+    font-size: 30px;
+    font-style: italic;/*gjør styling på hvordan det ser ut */
+}
+
+.del1 li {
+    font-size: 30px;
+    font-style: normal;
+
+
+}
+h3 { 
+
+    padding: 0px;
+    line-height: 2;
+}
+
+
+h4, h5, h6{
+    font-size: large;
+}
+.hoved-tekst {
+    
+    line-height: 30px;
+    font-size: 20px;
+    
+}  
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    border-radius: 5px;
+    padding: 30px;
+    
+}
+
+   
+.del4{
+    margin-top: 40px;
+
+}
+
+.valg-bildet {
+    height: 70%;
+    width: 80%;
+    padding-top: 100px;
+    padding-left: 80px;
+    /*de kodene for å endre plassen til bildet sånn at det står i midten ved siden av teksten */
+}
+
+
+
+.norske-leksikon {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.regjering-logo {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.university-bergen-norway {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.kilder-styling {
+    background-color:rgba(70, 70, 68, 0.178);
+    background-size: 200px;
+    padding: 10px;
+    }
+.kilde-linker {
+    padding-top: 0%;
+    
+    }
+.kunstig-intelligens {
+    height: 90%;
+    width: 100%;
+}
+.AI-bildet {
+    height: 80%;
+    width: 90%;
+    padding-top: 30px;
+}
+.AI-1-bildet {
+    height: 80%;
+    width: 80%;
+    padding-left: 100px;
+    padding-top: 20px;
+    
+}
+.A1-bildet-link {
+    padding-left: 100px;
+    text-decoration-line: unset;
+}
+.valg-link{
+    padding-left: 80px;
+    text-decoration-line: unset;
+}
+.AI-3-bildet {
+    height: 300px;
+    width: 500px;
+    
+}
+.f-linker {
+    color: rgb(78, 78, 166);
+    text-decoration-line: unset;
+
+
+}
+.AI-link {
+    text-decoration-line: unset;
+
+}
+
+
