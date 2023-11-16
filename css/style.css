@@ -1,7 +1,7 @@
 
 
 .Fake-news-body {
-    background-color: rgba(179, 196, 214, 0.726);
+    background-color: rgba(221, 206, 219, 0.726);
 }
 
 
@@ -50,6 +50,8 @@ li {
 .del1 li {
     font-size: 30px;
     font-style: normal;
+
+
 }
 h3 { 
 
@@ -88,6 +90,7 @@ h4, h5, h6{
     width: 80%;
     padding-top: 100px;
     padding-left: 80px;
+    /*de kodene for å endre plassen til bildet sånn at det står i midten ved siden av teksten */
 }
 
 
@@ -113,7 +116,7 @@ h4, h5, h6{
     padding: 10px;
     }
 .kilde-linker {
-    padding-top: 5px;
+    padding-top: 0%;
     
     }
 .kunstig-intelligens {
