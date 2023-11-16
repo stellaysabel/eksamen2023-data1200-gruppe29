@@ -200,7 +200,7 @@ body{
 }
 
 .main-page-background{
-  background-image: url(/img/photoeditoroslomet.jpg);
+  background-image: url(../img/photoeditoroslomet.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
