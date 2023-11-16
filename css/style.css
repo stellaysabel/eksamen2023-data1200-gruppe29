@@ -386,3 +386,11 @@ div.desc {
 }
 
 
+.qoute-links{
+  color:aliceblue;
+}
+
+.qoute-links:hover{
+  color:chocolate;
+}
+
