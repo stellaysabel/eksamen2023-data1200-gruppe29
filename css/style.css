@@ -1,7 +1,7 @@
 
 
 .Fake-news-body {
-    background-color: rgba(221, 206, 219, 0.726);
+    background-color: rgba(199, 148, 192, 0.726);
 }
 
 
@@ -50,8 +50,6 @@ li {
 .del1 li {
     font-size: 30px;
     font-style: normal;
-
-
 }
 h3 { 
 
@@ -116,7 +114,7 @@ h4, h5, h6{
     padding: 10px;
     }
 .kilde-linker {
-    padding-top: 0%;
+    padding-top: px;
     
     }
 .kunstig-intelligens {
@@ -137,7 +135,7 @@ h4, h5, h6{
 }
 .A1-bildet-link {
     padding-left: 100px;
-    text-decoration-line: unset;
+    text-decoration-line: unset; /*  for å fjerne linje under linker */
 }
 .valg-link{
     padding-left: 80px;
