@@ -24,6 +24,7 @@ li {
 .fake-news-list{
 line-height: 2;
 }
+
 .nav{
   background-color: rgba(32, 32, 44, 0);/*changes the background color in the navigation bar*/
   overflow: hidden; /*Used to prevent unwanted horizontal scrolling and extra whitespace in your project*/
@@ -91,23 +92,19 @@ img {
 
 
 /*Topical page*/
-.Fake-news-h1 {
+.fake-news-h1 {
     color: white;
     font-size: 50px;
     justify-content: center;
     padding: 5%;
     
 }
-.Fake-news-h2{
+.fake-news-h2{
     color: white;
     font-size: 40px;
     text-align: center;
 }
 
-.Top-image {
-    height: 500px;
-    width: 100%;
-}
 .image-information{
     color: rgb(181, 181, 181);
     font-size: smaller;
@@ -119,9 +116,6 @@ img {
   color: chocolate;
 }
 
-.fake-news-list{
-  line-height: 2;
-}
 
 h3 { 
 
@@ -143,7 +137,7 @@ h4, h5, h6{
 .grid-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    
+    grid-gap: 10px;
     border-radius: 5px;
     padding: 30px;
     
@@ -222,7 +216,7 @@ h4, h5, h6{
 }
 
 /*background photo on top of the topical page and the code for gradiant color change*/
-.Fake-news{
+.fake-news{
   background-image: url(../img/fakeNewsBakgrunn.jpeg);
   background-size: cover;
   background-position: center;
