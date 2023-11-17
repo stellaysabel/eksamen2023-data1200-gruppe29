@@ -300,7 +300,7 @@ campus-container{
 
 .nav-topical a{
   float: left; /*places an element on the left or right side of its container*/
-  color: rgb(173, 172, 172);/*Changes color of the text*/
+  color: rgb(252, 252, 252);/*Changes color of the text*/
   text-align: center;/* Text is located in the center */
   padding: 40px 0px 0px 30px; /*  */
   text-decoration: none;  
@@ -308,10 +308,10 @@ campus-container{
 } 
 
 .nav-topical a:hover{
-  color: rgb(252, 252, 252);
+  color: rgb(187, 185, 185);
 }
 /*background photo on top of the home page and the code for gradiant color change*/
-.main-page-background{
+.fake-news{
   background-image: url(../img/fakeNewsBakgrunn.jpeg);
   background-size: cover;
   background-position: center;
@@ -325,14 +325,14 @@ campus-container{
   text-align: center;
   opacity: value;
 }
-.Fake-news-h1 {
+.fake-news-h1 {
   color: white;
   font-size: 50px;
   justify-content: center;
   padding: 5%;
   
 }
-.Fake-news-h2{
+.fake-news-h2{
   color: white;
   font-size: 40px;
   text-align: center;
