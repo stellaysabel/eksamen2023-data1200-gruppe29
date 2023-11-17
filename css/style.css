@@ -21,10 +21,9 @@ li {
   font-size: 30px;
 }
 
-.fake-news-list{
-line-height: 2;
-}
+/*Home*/
 
+/* Index page*/
 .nav{
   background-color: rgba(32, 32, 44, 0);/*changes the background color in the navigation bar*/
   overflow: hidden; /*Used to prevent unwanted horizontal scrolling and extra whitespace in your project*/
@@ -51,129 +50,6 @@ line-height: 2;
   opacity: value;
 }
 
-/*Oslomet Campus page*/
-.row {
-  display: flex;
-}
-.column {
-  flex: 1;
-  padding: 5px;
-}
-
-
-/*Topical page*/
-.fake-news-h1 {
-    color: white;
-    font-size: 50px;
-    justify-content: center;
-    padding: 5%;
-    
-}
-.fake-news-h2{
-    color: white;
-    font-size: 40px;
-    text-align: center;
-}
-
-.image-information{
-    color: rgb(181, 181, 181);
-    font-size: smaller;
-    padding-left: 20px;
-    text-decoration-line: unset; /*for å fjrne linje under linken */
-}
-
-.image-information:hover{
-  color: chocolate;
-}
-
-
-h3 { 
-
-    padding: 0px;
-    line-height: 2;
-}
-
-
-h4, h5, h6{
-    font-size: large;
-}
-.hoved-tekst {
-    
-    line-height: 30px;
-    font-size: 20px;
-    
-}  
-
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 10px;
-    border-radius: 5px;
-    padding: 30px;
-    
-}
-
-   
-.del4{
-    margin-top: 40px;
-
-}
-
-.valg-bildet {
-    height: 100%;
-    width: 100%;
-    /*de kodene for å endre plassen til bildet sånn at det står i midten ved siden av teksten */
-}
-
-.kunstig-intelligens {
-  height: 90%;
-  width: 100%;
-}
-.AI-bildet {
-  height: 80%;
-  width: 90%;
-  padding-top: 30px;
-}
-.AI-1-bildet {
-  height: 80%;
-  width: 80%;
-  padding-left: 100px;
-  padding-top: 20px;
-}
-
-.AI-3-bildet {
-  height: 300px;
-  width: 500px;
-}
-
-.norske-leksikon {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-}
-.regjering-logo {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-}
-.university-bergen-norway {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-}
-.kilder-styling {
-    background-color:rgba(70, 70, 68, 0.178);
-    background-size: 100%;
-    padding: 10px;
-    color: aliceblue;
-    }
-.kilde-linker {
-    padding-top: 0%;
-    
-    }
-
-/*Home*/
-
 /*background photo on top of the home page and the code for gradiant color change*/
 .main-page-background{
   background-image: url(../img/photoeditoroslomet.jpg);
@@ -184,7 +60,6 @@ h4, h5, h6{
   -webkit-mask-image: linear-gradient(black, transparent);
   mask-image: linear-gradient(black, transparent);
 }
-
 
 .main-page-heading{
   position: absolute;
@@ -359,9 +234,6 @@ div.desc {
   background-color: rgba(2, 2, 25, 0.232);
 }
 
-
-
-
 /*Oslomet Campus page*/
 
 .nav-campus{
@@ -413,11 +285,11 @@ campus-container{
   text-align: center;
   opacity: value;
 }
-
+.row {
+  display: flex;
+}
 
 /*Topical page*/
-
-/*Different color scheem for the navigation bar on the Topical page*/
 .nav-topical{
   background-color: rgba(32, 32, 44, 0);/*changes the background color in the navigation bar*/
   overflow: hidden; /*Used to prevent unwanted horizontal scrolling and extra whitespace in your project*/
@@ -428,15 +300,17 @@ campus-container{
 
 .nav-topical a{
   float: left; /*places an element on the left or right side of its container*/
-  color: rgb(255, 252, 252);/*Changes color of the text*/
+  color: rgb(252, 252, 252);/*Changes color of the text*/
   text-align: center;/* Text is located in the center */
   padding: 40px 0px 0px 30px; /*  */
   text-decoration: none;  
   font-size: 1.5em;
 } 
+
 .nav-topical a:hover{
-  color: rgb(206, 205, 205);
+  color: rgb(187, 185, 185);
 }
+/*background photo on top of the home page and the code for gradiant color change*/
 .fake-news{
   background-image: url(../img/fakeNewsBakgrunn.jpeg);
   background-size: cover;
@@ -446,115 +320,124 @@ campus-container{
   -webkit-mask-image: linear-gradient(black, transparent);
   mask-image: linear-gradient(black, transparent);
 }
+.main-page-container{
+  position: relative;
+  text-align: center;
+  opacity: value;
+}
 .fake-news-h1 {
-    color: white;
-    font-size: 50px;
-    justify-content: center;
-    padding: 5%;
+  color: white;
+  font-size: 50px;
+  justify-content: center;
+  padding: 5%;
+  
 }
 .fake-news-h2{
-    color: white;
-    font-size: 40px;
-    text-align: center;
+  color: white;
+  font-size: 40px;
+  text-align: center;
 }
 
+.Top-image {
+  height: 500px;
+  width: 100%;
+}
 .image-information{
-    color: rgb(181, 181, 181);
-    font-size: smaller;
-    padding-left: 20px;
-    text-decoration-line: unset; /*for å fjrne linje under linken */
+  color: rgb(181, 181, 181);
+  font-size: smaller;
+  padding-left: 20px;
+  text-decoration-line: unset; /*for å fjrne linje under linken */
 }
 
 .image-information:hover{
-  color: chocolate;
+color: chocolate;
 }
 
 .fake-news-list{
-  line-height: 2;
+line-height: 2;
 }
 
 h3 { 
 
-    padding: 0px;
-    line-height: 2;
+  padding: 0px;
+  line-height: 2;
 }
 
 
 h4, h5, h6{
-    font-size: large;
+  font-size: large;
 }
 .hoved-tekst {
-    line-height: 30px;
-    font-size: 20px;
+  
+  line-height: 30px;
+  font-size: 20px;
+  
 }  
 
 .grid-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    border-radius: 5px;
-    padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
+  border-radius: 5px;
+  padding: 30px;
+  
 }
 
-.grid-topical{
-  grid-gap: 0;
-}
-   
-.bilde-tekst-topical{
-    margin-top: 40px;
+ 
+.del4{
+  margin-top: 40px;
 
 }
 
 .valg-bildet {
-    height: 100%;
-    width: 100%;
-    /*de kodene for å endre plassen til bildet sånn at det står i midten ved siden av teksten */
+  height: 100%;
+  width: 100%;
+  /*de kodene for å endre plassen til bildet sånn at det står i midten ved siden av teksten */
 }
 
 .kunstig-intelligens {
-  height: 90%;
-  width: 100%;
+height: 90%;
+width: 100%;
 }
 .AI-bildet {
-  height: 80%;
-  width: 90%;
-  padding-top: 30px;
+height: 80%;
+width: 90%;
+padding-top: 30px;
 }
 .AI-1-bildet {
-  height: 80%;
-  width: 80%;
-  padding-left: 100px;
-  padding-top: 20px;
+height: 80%;
+width: 80%;
+padding-left: 100px;
+padding-top: 20px;
 }
 
 .AI-3-bildet {
-  height: 300px;
-  width: 500px;
+height: 300px;
+width: 500px;
 }
 
 .norske-leksikon {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
 }
 .regjering-logo {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
 }
 .university-bergen-norway {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
 }
 .kilder-styling {
-    background-color:rgba(70, 70, 68, 0.178);
-    background-size: 100%;
-    padding: 10px;
-    color: aliceblue;
-    }
+  background-color:rgba(70, 70, 68, 0.178);
+  background-size: 100%;
+  padding: 10px;
+  color: aliceblue;
+  }
 .kilde-linker {
-    padding-top: 0%;
-    
-    }
-
-
+  padding-top: 0%;
+  
+  }
