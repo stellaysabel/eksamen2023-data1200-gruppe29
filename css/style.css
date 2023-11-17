@@ -185,16 +185,6 @@ h4, h5, h6{
   mask-image: linear-gradient(black, transparent);
 }
 
-/*background photo on top of the topical page and the code for gradiant color change*/
-.Fake-news{
-  background-image: url(../img/fakeNewsBakgrunn.jpeg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  object-fit: cover;
-  -webkit-mask-image: linear-gradient(black, transparent);
-  mask-image: linear-gradient(black, transparent);
-}
 
 .main-page-heading{
   position: absolute;
