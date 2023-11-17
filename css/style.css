@@ -1,3 +1,78 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*changes the text font over the whole website to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+  height: 1000px; /* Used to enable scrolling */
+  background-color:rgba(2, 2, 25, 0.916);/*#3a4454; Used to change the background color of the website */
+  display: flex; /* sets your container to be a flexbox element */
+  flex-direction: column; /*sets how the flex items are placed in the flex container*/
+  margin: 0;
+}
+main{
+  margin-top: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: auto;
+  color:white;
+  align-items: center;
+}
+ul{
+  list-style: none; /* for å ikke ha noe ved siden liste liksom punkter */
+}
+li {
+  font-size: 30px;
+}
+
+.fake-news-list{
+line-height: 2;
+}
+.nav{
+  background-color: rgba(32, 32, 44, 0);/*changes the background color in the navigation bar*/
+  overflow: hidden; /*Used to prevent unwanted horizontal scrolling and extra whitespace in your project*/
+  flex-direction: row; /*sets how flex items are places in the flex container*/
+  width: 100%;/*Means navigation page is the same width as the parent element*/
+  margin: 0px 50px 75px 0px;/* Margin properties are used to crate space around elemetns outside of any defines borders https://www.w3schools.com/css/css_margin.asp*/
+}
+
+.nav a{
+  float: left; /*places an element on the left or right side of its container*/
+  color: rgb(173, 172, 172);/*Changes color of the text*/
+  text-align: center;/* Text is located in the center */
+  padding: 40px 0px 0px 30px; /*  */
+  text-decoration: none;  
+  font-size: 1.5em;
+} 
+
+.nav a:hover{
+  color: rgb(252, 252, 252);
+}
+
+/*Different color scheem for the navigation bar on the Topical page*/
+.nav-topical{
+  background-color: rgba(32, 32, 44, 0);/*changes the background color in the navigation bar*/
+  overflow: hidden; /*Used to prevent unwanted horizontal scrolling and extra whitespace in your project*/
+  flex-direction: row; /*sets how flex items are places in the flex container*/
+  width: 100%;/*Means navigation page is the same width as the parent element*/
+  margin: 0px 50px 75px 0px;/* Margin properties are used to crate space around elemetns outside of any defines borders https://www.w3schools.com/css/css_margin.asp*/
+}
+
+.nav-topical a{
+  float: left; /*places an element on the left or right side of its container*/
+  color: rgb(255, 252, 252);/*Changes color of the text*/
+  text-align: center;/* Text is located in the center */
+  padding: 40px 0px 0px 30px; /*  */
+  text-decoration: none;  
+  font-size: 1.5em;
+} 
+
+.nav-topical a:hover{
+  color: rgb(206, 205, 205);
+}
+
+.main-page-container{
+  position: relative;
+  text-align: center;
+  opacity: value;
+}
+
 /*Oslomet Campus page*/
 .row {
   display: flex;
@@ -20,7 +95,6 @@
     color: white;
     font-size: 40px;
     text-align: center;
-
 }
 
 .Top-image {
@@ -32,23 +106,10 @@
     font-size: smaller;
     padding-left: 20px;
     text-decoration-line: unset; /*for å fjrne linje under linken */
-
 }
 
 .image-information:hover{
   color: chocolate;
-}
-    
-    
-
-ul{
-    list-style: none; /* for å ikke ha noe ved siden liste liksom punkter */
-
-     
-}
-li {
-    font-size: 30px;
-
 }
 
 .fake-news-list{
@@ -107,16 +168,12 @@ h4, h5, h6{
   width: 80%;
   padding-left: 100px;
   padding-top: 20px;
-  
 }
 
 .AI-3-bildet {
   height: 300px;
   width: 500px;
-  
 }
-
-
 
 .norske-leksikon {
     width: 100px;
@@ -144,68 +201,7 @@ h4, h5, h6{
     
     }
 
-
 /*Home*/
-
-body{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*changes the text font over the whole website to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
-  height: 1000px; /* Used to enable scrolling */
-  background-color:rgba(2, 2, 25, 0.916);/*#3a4454; Used to change the background color of the website */
-  display: flex; /* sets your container to be a flexbox element */
-  flex-direction: column; /*sets how the flex items are placed in the flex container*/
-  margin: 0;
-}
-
-.nav{
-  background-color: rgba(32, 32, 44, 0);/*changes the background color in the navigation bar*/
-  overflow: hidden; /*Used to prevent unwanted horizontal scrolling and extra whitespace in your project*/
-  flex-direction: row; /*sets how flex items are places in the flex container*/
-  width: 100%;/*Means navigation page is the same width as the parent element*/
-  margin: 0px 50px 75px 0px;/* Margin properties are used to crate space around elemetns outside of any defines borders https://www.w3schools.com/css/css_margin.asp*/
-}
-
-.nav a{
-  float: left; /*places an element on the left or right side of its container*/
-  color: rgb(173, 172, 172);/*Changes color of the text*/
-  text-align: center;/* Text is located in the center */
-  padding: 40px 0px 0px 30px; /*  */
-  text-decoration: none;  
-  font-size: 1.5em;
-} 
-
-.nav a:hover{
-  color: rgb(252, 252, 252);
-}
-
-/*Different color scheem for the navigation bar on the Topical page*/
-.nav-topical{
-  background-color: rgba(32, 32, 44, 0);/*changes the background color in the navigation bar*/
-  overflow: hidden; /*Used to prevent unwanted horizontal scrolling and extra whitespace in your project*/
-  flex-direction: row; /*sets how flex items are places in the flex container*/
-  width: 100%;/*Means navigation page is the same width as the parent element*/
-  margin: 0px 50px 75px 0px;/* Margin properties are used to crate space around elemetns outside of any defines borders https://www.w3schools.com/css/css_margin.asp*/
-}
-
-.nav-topical a{
-  float: left; /*places an element on the left or right side of its container*/
-  color: rgb(255, 252, 252);/*Changes color of the text*/
-  text-align: center;/* Text is located in the center */
-  padding: 40px 0px 0px 30px; /*  */
-  text-decoration: none;  
-  font-size: 1.5em;
-} 
-
-.nav-topical a:hover{
-  color: rgb(206, 205, 205);
-}
-
-
-.main-page-container{
-  position: relative;
-  text-align: center;
-  opacity: value;
-}
-
 
 /*background photo on top of the home page and the code for gradiant color change*/
 .main-page-background{
@@ -405,12 +401,4 @@ div.desc {
   background-color: rgba(2, 2, 25, 0.232);
 }
 
-
-.qoute-links{
-  color:aliceblue;
-}
-
-.qoute-links:hover{
-  color:chocolate;
-}
 
