@@ -47,6 +47,136 @@ li {
   opacity: value;
 }
 
+/*Oslomet Campus page*/
+.row {
+  display: flex;
+}
+.column {
+  flex: 1;
+  padding: 5px;
+}
+
+
+/*Topical page*/
+.Fake-news-h1 {
+    color: white;
+    font-size: 50px;
+    justify-content: center;
+    padding: 5%;
+    
+}
+.Fake-news-h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Top-image {
+    height: 500px;
+    width: 100%;
+}
+.image-information{
+    color: rgb(181, 181, 181);
+    font-size: smaller;
+    padding-left: 20px;
+    text-decoration-line: unset; /*for å fjrne linje under linken */
+}
+
+.image-information:hover{
+  color: chocolate;
+}
+
+.fake-news-list{
+  line-height: 2;
+}
+
+h3 { 
+
+    padding: 0px;
+    line-height: 2;
+}
+
+
+h4, h5, h6{
+    font-size: large;
+}
+.hoved-tekst {
+    
+    line-height: 30px;
+    font-size: 20px;
+    
+}  
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    border-radius: 5px;
+    padding: 30px;
+    
+}
+
+   
+.del4{
+    margin-top: 40px;
+
+}
+
+.valg-bildet {
+    height: 100%;
+    width: 100%;
+    /*de kodene for å endre plassen til bildet sånn at det står i midten ved siden av teksten */
+}
+
+.kunstig-intelligens {
+  height: 90%;
+  width: 100%;
+}
+.AI-bildet {
+  height: 80%;
+  width: 90%;
+  padding-top: 30px;
+}
+.AI-1-bildet {
+  height: 80%;
+  width: 80%;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.AI-3-bildet {
+  height: 300px;
+  width: 500px;
+}
+
+.norske-leksikon {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.regjering-logo {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.university-bergen-norway {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.kilder-styling {
+    background-color:rgba(70, 70, 68, 0.178);
+    background-size: 100%;
+    padding: 10px;
+    color: aliceblue;
+    }
+.kilde-linker {
+    padding-top: 0%;
+    
+    }
+
+/*Home*/
+
 /*background photo on top of the home page and the code for gradiant color change*/
 .main-page-background{
   background-image: url(../img/photoeditoroslomet.jpg);
