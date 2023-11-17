@@ -78,8 +78,15 @@ line-height: 2;
   display: flex;
 }
 .column {
-  flex: 1;
-  padding: 5px;
+  flex: 0 0 33.33%; /* Sett flex til 33.33% */
+  padding: 1%;
+  box-sizing: border-box; /* Inkluder padding i størrelsen */
+}
+
+/* For å sikre at bildene ikke strekker seg utover kolonnens bredde */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 
