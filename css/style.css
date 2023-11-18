@@ -280,7 +280,7 @@ div.desc {
   flex: 1;
   padding: 5px;
 }
-campus-container{
+.campus-container{
   position: relative;
   text-align: center;
   opacity: value;
@@ -325,22 +325,24 @@ campus-container{
   text-align: center;
   opacity: value;
 }
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 4%;
+}
 .fake-news-h1 {
   color: white;
   font-size: 50px;
-  justify-content: center;
-  padding: 5%;
+  text-align: center;
+  padding-top: 10%;
   
 }
 .fake-news-h2{
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
-}
-
-.Top-image {
-  height: 500px;
-  width: 100%;
+  padding: 5%;
 }
 .image-information{
   color: rgb(181, 181, 181);
@@ -353,67 +355,60 @@ campus-container{
 color: chocolate;
 }
 
-.fake-news-list{
+/*.fake-news-list{
 line-height: 2;
+background-color: #6a929a;
+border-radius: 20px;
 }
 
-h3 { 
-
-  padding: 0px;
-  line-height: 2;
-}
-
-
-h4, h5, h6{
-  font-size: large;
-}
 .hoved-tekst {
-  
-  line-height: 30px;
+  line-height: 2;
   font-size: 20px;
   
-}  
+}*/
 
-.grid-container{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  
-  border-radius: 5px;
-  padding: 30px;
-  
-}
-
- 
-.del4{
-  margin-top: 40px;
+.bilde-tekst-topical{
+  padding: 40px;
+  background-color: #6a929a;
+  border-radius: 20px; 
+  line-height: 2;
+  font-size: 20px; 
 
 }
 
 .valg-bildet {
-  height: 100%;
-  width: 100%;
-  /*de kodene for å endre plassen til bildet sånn at det står i midten ved siden av teksten */
+  height: auto;
+  width: 100%;/*de kodene for å endre plassen til bildet sånn at det står i midten ved siden av teksten */
 }
 
 .kunstig-intelligens {
-height: 90%;
+height: auto;
 width: 100%;
+padding-top: 40px;
 }
 .AI-bildet {
-height: 80%;
-width: 90%;
+height: auto;
+width: 100%;
 padding-top: 30px;
 }
 .AI-1-bildet {
-height: 80%;
-width: 80%;
+height: auto;
+width: 100%;
 padding-left: 100px;
 padding-top: 20px;
 }
 
 .AI-3-bildet {
-height: 300px;
-width: 500px;
+height: auto;
+width: 100%;
+}
+
+h4, h5{
+  font-size: x-large;
+}
+
+h6{
+  font-size: large;
 }
 
 .norske-leksikon{
@@ -435,7 +430,4 @@ width: 500px;
   padding: 10px;
   color: aliceblue;
   }
-.kilde-linker {
-  padding-top: 0%;
-  
-  }
+
