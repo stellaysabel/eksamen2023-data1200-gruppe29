@@ -21,8 +21,6 @@ li {
   font-size: 30px;
 }
 
-/*Home*/
-
 /* Index page*/
 .nav{
   background-color: rgba(32, 32, 44, 0);/*changes the background color in the navigation bar*/
@@ -153,7 +151,6 @@ div.desc {
   clear: both;
 }
 
-
 .container {
   display: flex;
   flex-direction: row;
@@ -196,6 +193,9 @@ div.desc {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+.button:hover{
+  background-color: rgba(88, 88, 216, 0.525);
 }
 
 .item-right-f img{
@@ -267,7 +267,7 @@ div.desc {
   background-image: url(../img/campus.png);
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 50vh;
   object-fit: cover;
   -webkit-mask-image: linear-gradient(black, transparent);
   mask-image: linear-gradient(black, transparent);
@@ -275,11 +275,13 @@ div.desc {
 
 .row {
   display: flex;
+  
 }
-.column {
+.column{
   flex: 1;
   padding: 5px;
 }
+
 campus-container{
   position: relative;
   text-align: center;
@@ -315,7 +317,7 @@ campus-container{
   background-image: url(../img/fakeNewsBakgrunn.jpeg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 50vh;
   object-fit: cover;
   -webkit-mask-image: linear-gradient(black, transparent);
   mask-image: linear-gradient(black, transparent);
