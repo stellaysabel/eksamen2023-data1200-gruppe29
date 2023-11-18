@@ -418,21 +418,19 @@ height: 300px;
 width: 500px;
 }
 
-.norske-leksikon {
+.norske-leksikon{
   width: 100px;
   height: 100px;
   padding: 20px;
+  background-color: rgba(255, 255, 255, 0.91);
 }
-.regjering-logo {
+
+.kilde-logo {
   width: 100px;
   height: 100px;
-  padding: 20px;
+
 }
-.university-bergen-norway {
-  width: 100px;
-  height: 100px;
-  padding: 20px;
-}
+
 .kilder-styling {
   background-color:rgba(70, 70, 68, 0.178);
   background-size: 100%;
