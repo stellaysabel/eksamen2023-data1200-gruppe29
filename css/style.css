@@ -107,6 +107,27 @@ li {
   flex-direction: row;
 }
 
+
+@media only screen and (max-width: 700px) {
+  .main-page-background{
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .nav{
+    font-size: x-small;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .main-page-heading{
+    font-size: large;
+    align-items: center;
+  }
+}
+
+
 @media only screen and (max-width: 1200px) {
   .responsive-campus {
     width: 49.99999%;
@@ -114,11 +135,12 @@ li {
   }
 }
 
-@media only screen and (max-width: 1200px ) {
+@media only screen and (max-width: 1200px) {
   .responsive-campus {
     width: 100%;
   }
 }
+
 div.gallery {
   border: 1px solid rgba(2, 2, 25, 0.101);
 }
