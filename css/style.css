@@ -1,16 +1,14 @@
 body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*changes the text font over the whole website to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
-  height: 1000px; /* Used to enable scrolling */
   background-color:rgba(2, 2, 25, 0.916);/*#3a4454; Used to change the background color of the website */
   display: flex; /* sets your container to be a flexbox element */
   flex-direction: column; /*sets how the flex items are placed in the flex container*/
   margin: 0;
 }
+
 main{
   margin-top: 0;
-  margin-left: 100px;
-  margin-right: 100px;
-
+  margin-bottom: 15%;
   color:white;
   align-items: center;
 }
@@ -58,6 +56,12 @@ li {
   -webkit-mask-image: linear-gradient(black, transparent);
   mask-image: linear-gradient(black, transparent);
 }
+@media only screen and (max-width: 1100px) {
+  .main-page-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 .main-page-heading{
   position: absolute;
@@ -69,16 +73,6 @@ li {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-
-main{
-  margin-top: 0;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 1000px;
-  color:white;
-  align-items: center;
-}
-
 .intro-container {
   padding: 150px;
 }
@@ -113,26 +107,24 @@ main{
   flex-direction: row;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1200px) {
   .responsive-campus {
     width: 49.99999%;
     margin: 6px 0;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1200px ) {
   .responsive-campus {
     width: 100%;
   }
 }
-
 div.gallery {
-  border: 1px solid #ccc;
- 
+  border: 1px solid rgba(2, 2, 25, 0.101);
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid white;
 }
 
 div.gallery img {
@@ -146,9 +138,14 @@ div.desc {
 }
 
 .clearfix:after {
-  content: "";
+  content: ""; /**/
   display: table;
   clear: both;
+}
+
+.size-mainpage{
+  border-radius: 20%;
+
 }
 
 .container {
@@ -233,29 +230,13 @@ div.desc {
   color: white;
   background-color: rgba(2, 2, 25, 0.232);
 }
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
 
 /*Oslomet Campus page*/
-
-.nav-campus{
-  background-color: rgba(32, 32, 44, 0);/*changes the background color in the navigation bar*/
-  overflow: hidden;
-  flex-direction: row; /*sets how flex items are places in the flex container*/
-  width: 100%;/*Means navigation page is the same width as the parent element*/
-  margin: 0px 50px 75px 0px;/* Margin properties are used to crate space around elemetns outside of any defines borders https://www.w3schools.com/css/css_margin.asp*/
-}
-
-.nav-campus a{
-  float: left; /*places an element on the left or right side of its container*/
-  color:rgb(255, 252, 252);/*Changes color of the text*/
-  text-align: center;/* Text is located in the center */
-  padding: 40px 0px 0px 30px; /*  */
-  text-decoration: none;  
-  font-size: 1.5em;
-} 
-
-.nav-topical a:hover{
-  color: rgb(206, 205, 205);
-}
 
 .campus-container{
   position: relative;
@@ -267,28 +248,55 @@ div.desc {
   background-image: url(../img/campus.png);
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 60vh;
   object-fit: cover;
   -webkit-mask-image: linear-gradient(black, transparent);
   mask-image: linear-gradient(black, transparent);
 }
-
+.tekst-campus{
+  background-color: rgba(61, 81, 107, 0.38);
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  padding: 4%;
+  font-size: 20px;
+}
 .row {
   display: flex;
-  
+  justify-content: center;
 }
+
 .column{
   flex: 1;
   padding: 5px;
 }
-
 campus-container{
   position: relative;
   text-align: center;
   opacity: value;
 }
-.row {
-  display: flex;
+
+.size {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.img-campus{
+  height: auto;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 20%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*Topical page*/
@@ -322,11 +330,6 @@ campus-container{
   -webkit-mask-image: linear-gradient(black, transparent);
   mask-image: linear-gradient(black, transparent);
 }
-.main-page-container{
-  position: relative;
-  text-align: center;
-  opacity: value;
-}
 .fake-news-h1 {
   color: white;
   font-size: 50px;
@@ -347,7 +350,7 @@ campus-container{
 .image-information{
   color: rgb(181, 181, 181);
   font-size: smaller;
-  padding-left: 20px;
+  padding-left: 225px;
   text-decoration-line: unset; /*for å fjrne linje under linken */
 }
 
@@ -375,20 +378,15 @@ h4, h5, h6{
   font-size: 20px;
   
 }  
-
 .grid-container{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  
   border-radius: 5px;
   padding: 30px;
-  
 }
-
  
 .del4{
   margin-top: 40px;
-
 }
 
 .valg-bildet {
