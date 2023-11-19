@@ -4,6 +4,12 @@ body {
   background-color: rgba(2, 2, 25, 0.918); 
   margin: 0px; 
 }
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 main { 
   margin: 0px 100px 15px; 
   color: white; 
