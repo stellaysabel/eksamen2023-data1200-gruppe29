@@ -27,7 +27,8 @@ li {
   width: 100%; 
   margin: 0px 50px 75px 0px; 
 }
-.nav a { float: left;
+.nav a { 
+  float: left;
   color: rgb(173, 172, 172);
   padding: 40px 0px 0px 30px;
   text-decoration: none;
