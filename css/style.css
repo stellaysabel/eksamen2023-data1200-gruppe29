@@ -279,14 +279,14 @@ li {
   gap: 4%; 
   margin-bottom: 50%; 
 }
-/*@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .grid-container { 
-    grid-template-columns: 100000fr; 
+    grid-template-columns: 1fr; 
     gap: 50px; 
     padding: 0px; 
-    align-items: center; 
+   
   }
-}*/
+}
 .fake-news-h1 { 
   color: white; 
   font-size: 50px; 
