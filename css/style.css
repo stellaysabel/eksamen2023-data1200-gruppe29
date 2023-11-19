@@ -1,419 +1,360 @@
-/*Oslomet Campus page*/
-.row {
-  display: flex;
+body { 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 1000px; 
+  background-color: rgba(2, 2, 25, 0.918); 
+  margin: 0px; 
 }
-.column {
-  flex: 1;
-  padding: 5px;
+main { 
+  margin: 0px 100px 15px; 
+  color: white; 
 }
-.Fake-news-body {
-    background-color: rgba(2, 2, 25, 0.916);;
+@media only screen and (max-width: 1000px) {
+  main { 
+    margin-left: 10px; 
+    margin-right: 10px; 
+  }
 }
-
-
-/*Topical page*/
-.Fake-news-h1 {
-    color: white;
-    font-size: 50px;
-    justify-content: center;
-    padding: 5%;
-    
+ul { 
+  list-style: none; 
 }
-.Fake-news-h2{
-    color: white;
-    font-size: 40px;
-    text-align: center;
-
+li { 
+  font-size: 30px; 
 }
-
-.Top-image {
-    height: 500px;
-    width: 100%;
+.nav { 
+  background-color: rgba(32, 32, 44, 0); 
+  overflow: hidden; 
+  flex-direction: row; 
+  width: 100%; 
+  margin: 0px 50px 75px 0px; 
 }
-.image-information{
-    color: rgb(181, 181, 181);
-    font-size: smaller;
-    padding-left: 20px;
-    text-decoration-line: unset; /*for å fjrne linje under linken */
-
-}
-
-.image-information:hover{
-  color: chocolate;
-}
-    
-    
-
-ul{
-    list-style: none; /* for å ikke ha noe ved siden liste liksom punkter */
-
-     
-}
-li {
-    font-size: 30px;
-
-}
-
-.fake-news-list{
-  line-height: 2;
-}
-
-h3 { 
-
-    padding: 0px;
-    line-height: 2;
-}
-
-
-h4, h5, h6{
-    font-size: large;
-}
-.hoved-tekst {
-    
-    line-height: 30px;
-    font-size: 20px;
-    
-}  
-
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    
-    border-radius: 5px;
-    padding: 30px;
-    
-}
-
-   
-.del4{
-    margin-top: 40px;
-
-}
-
-.valg-bildet {
-    height: 100%;
-    width: 100%;
-    /*de kodene for å endre plassen til bildet sånn at det står i midten ved siden av teksten */
-}
-
-.kunstig-intelligens {
-  height: 90%;
-  width: 100%;
-}
-.AI-bildet {
-  height: 80%;
-  width: 90%;
-  padding-top: 30px;
-}
-.AI-1-bildet {
-  height: 80%;
-  width: 80%;
-  padding-left: 100px;
-  padding-top: 20px;
-  
-}
-
-.AI-3-bildet {
-  height: 300px;
-  width: 500px;
-  
-}
-
-
-
-.norske-leksikon {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-}
-.regjering-logo {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-}
-.university-bergen-norway {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-}
-.kilder-styling {
-    background-color:rgba(70, 70, 68, 0.178);
-    background-size: 100%;
-    padding: 10px;
-    color: aliceblue;
-    }
-.kilde-linker {
-    padding-top: 0%;
-    
-    }
-
-
-/*Home*/
-
-body{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*changes the text font over the whole website to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
-  height: 1000px; /* Used to enable scrolling */
-  background-color:rgba(2, 2, 25, 0.916);/*#3a4454; Used to change the background color of the website */
-  display: flex; /* sets your container to be a flexbox element */
-  flex-direction: column; /*sets how the flex items are placed in the flex container*/
-  margin: 0;
-}
-
-.nav{
-  background-color: rgba(32, 32, 44, 0);/*changes the background color in the navigation bar*/
-  overflow: hidden; /*Used to prevent unwanted horizontal scrolling and extra whitespace in your project*/
-  flex-direction: row; /*sets how flex items are places in the flex container*/
-  width: 100%;/*Means navigation page is the same width as the parent element*/
-  margin: 0px 50px 75px 0px;/* Margin properties are used to crate space around elemetns outside of any defines borders https://www.w3schools.com/css/css_margin.asp*/
-}
-
-.nav a{
-  float: left; /*places an element on the left or right side of its container*/
-  color: rgb(173, 172, 172);/*Changes color of the text*/
-  text-align: center;/* Text is located in the center */
-  padding: 40px 0px 0px 30px; /*  */
-  text-decoration: none;  
-  font-size: 1.5em;
-} 
-
-.nav a:hover{
+.nav a { float: left;
+  color: rgb(173, 172, 172);
+  padding: 40px 0px 0px 30px;
+  text-decoration: none;
+  font-size: 1.5em; 
+  }
+.nav a:hover { 
   color: rgb(252, 252, 252);
-}
-
-/*Different color scheem for the navigation bar on the Topical page*/
-.nav-topical{
-  background-color: rgba(32, 32, 44, 0);/*changes the background color in the navigation bar*/
-  overflow: hidden; /*Used to prevent unwanted horizontal scrolling and extra whitespace in your project*/
-  flex-direction: row; /*sets how flex items are places in the flex container*/
-  width: 100%;/*Means navigation page is the same width as the parent element*/
-  margin: 0px 50px 75px 0px;/* Margin properties are used to crate space around elemetns outside of any defines borders https://www.w3schools.com/css/css_margin.asp*/
-}
-
-.nav-topical a{
-  float: left; /*places an element on the left or right side of its container*/
-  color: rgb(255, 252, 252);/*Changes color of the text*/
-  text-align: center;/* Text is located in the center */
-  padding: 40px 0px 0px 30px; /*  */
-  text-decoration: none;  
-  font-size: 1.5em;
-} 
-
-.nav-topical a:hover{
-  color: rgb(206, 205, 205);
-}
-
-
-.main-page-container{
+ }
+.main-page-container { 
   position: relative;
-  text-align: center;
-  opacity: value;
-}
-
-
-/*background photo on top of the home page and the code for gradiant color change*/
-.main-page-background{
-  background-image: url(../img/photoeditoroslomet.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+ }
+.main-page-background { 
+  background-image: url("../img/photoeditoroslomet.jpg");
+  background-size: cover; 
+  background-position: center center; 
+  height: 100vh; 
   object-fit: cover;
   -webkit-mask-image: linear-gradient(black, transparent);
-  mask-image: linear-gradient(black, transparent);
+   }
+.main-page-heading { 
+  position: absolute; 
+  top: 40%; left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: floralwhite; 
+  font-size: 50px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  text-align: center; 
 }
-
-/*background photo on top of the topical page and the code for gradiant color change*/
-.Fake-news{
-  background-image: url(../img/fakeNewsBakgrunn.jpeg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  object-fit: cover;
-  -webkit-mask-image: linear-gradient(black, transparent);
-  mask-image: linear-gradient(black, transparent);
+.main-page-container { 
+  position: relative; 
+  text-align: center; 
 }
-
-.main-page-heading{
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  color:floralwhite;
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
-
-main{
-  margin-top: 0;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 1000px;
-  color:white;
-  align-items: center;
-}
-
-.intro-container {
+.intro-container { 
   padding: 150px;
-}
-
-.heading-intro{
+ }
+.heading-intro { 
   text-align: center;
-}
-
-.oslomet-intro{
-  font-size: larger;
-  display: flex;
+ }
+.oslomet-intro { 
+  font-size: larger; 
+  display: flex; 
   text-align: center;
-  width: 100%;
-  line-height: 2;
+  width: 100%; 
+  line-height: 2; 
+  }
+.picture-link-campus { 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  gap: 50px; 
 }
-
-.picture-link-campus{
-  display: flex;
+* { 
+  box-sizing: border-box; 
+}
+.responsive-campus { 
+  padding: 0px 6px; 
+  float: left; 
+  width: 25%; 
   flex-direction: row;
-  justify-content: center;
-  grid-gap: 50px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive-campus {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-  flex-direction: row;
-}
-
+ }
 @media only screen and (max-width: 700px) {
-  .responsive-campus {
-    width: 49.99999%;
-    margin: 6px 0;
+  .responsive-campus { 
+    width: 50%; 
+    margin: 6px 0px; 
   }
 }
-
 @media only screen and (max-width: 500px) {
-  .responsive-campus {
-    width: 100%;
+  .responsive-campus { 
+    width: 100%; 
   }
 }
-
-div.gallery {
-  border: 1px solid #ccc;
- 
+.gallery { 
+  border: 1px solid rgb(204, 204, 204);
+ }
+.gallery:hover { 
+  border: 1px solid rgb(119, 119, 119);
+ }
+.gallery img { 
+  width: 100%; 
+  height: auto; 
 }
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: 100%;
-}
-
-div.desc {
-  padding: 15px;
+.desc { 
+  padding: 15px; 
   text-align: center;
+ }
+.clearfix::after { 
+  content: ""; 
+  display: table; 
+  clear: both; 
 }
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
+.container { 
+  display: flex; 
+  flex-direction: row; 
   padding-top: 200px;
   font-size: 30px;
-  text-align: center;
+  text-align: center; 
 }
-
-.item-left-a {
-  display: flex;
-  flex-direction: column;
-  background-color:rgba(35, 35, 93, 0.355);
-  flex: 50%;
+.item-left-a { 
+  display: flex; 
+  flex-direction: column; 
+  background-color: rgba(35, 35, 93, 0.357); 
+  flex: 1 1 50%; 
   align-items: center; 
-  padding: 50px;
-  justify-content: center;
-}
-
-.item-right-a {
-  display: flex;
-  flex-direction: column;
-  background-color: #93a8acb4 ;
-  padding: 70px;
-  flex: 50%;
-  align-items: center;
-}
-
-.item-right-a img{
-  padding-bottom: 50px;
-}
-
-.button {
-  background-color: #d4f5f5;
-  border: wheat;
-  border-radius: 10px;
-  padding: 20px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.item-right-f img{
-  padding-bottom: 5px;
-  height: auto;
-  width: 600px;
-}
-.item-right-f {
-  display: flex;
-  flex-direction: column;
-  background-color: #93A8AC ;
-  padding: 70px;
-  flex: 50%;
-  align-items: center;
-}
-
-.item-left-f {
-  display: flex;
-  flex-direction: column;
-  background-color:rgba(35, 35, 93, 0.355);
-  flex: 50%;
+  padding: 50px; 
+  justify-content: center; }
+.item-right-a { 
+  display: flex; 
+  flex-direction: column; 
+  background-color: rgba(147, 168, 172, 0.706); 
+  padding: 70px; 
+  flex: 1 1 50%; 
   align-items: center; 
-  padding: 50px;
-  justify-content: center;
-  
 }
-
+.item-right-a img { 
+  padding-bottom: 50px; 
+}
+.button { 
+  background-color: rgb(212, 245, 245); 
+  border: wheat; 
+  border-radius: 10px; 
+  padding: 20px 32px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+}
+.item-right-f img { 
+  padding-bottom: 5px; 
+  height: auto; 
+  width: 600px; 
+}
+.item-right-f { 
+  display: flex; 
+  flex-direction: column; 
+  background-color: rgb(147, 168, 172); 
+  padding: 70px; 
+  flex: 1 1 50%; 
+  align-items: center; 
+}
+.item-left-f { 
+  display: flex; 
+  flex-direction: column; 
+  background-color: rgba(35, 35, 93, 0.357); 
+  flex: 1 1 50%; 
+  align-items: center; 
+  padding: 50px; 
+  justify-content: center; 
+}
 @media (max-width: 800px) {
-  .fake-news-container {
-    flex-direction: column;
+  .fake-news-container { 
+    flex-direction: column; 
   }
 }
-
-.contact{
-  color: white;
-  background-color: rgba(2, 2, 25, 0.232);
+.contact { color: white; 
+  background-color: rgba(2, 2, 25, 0.23); 
 }
-
-
-.qoute-links{
-  color:aliceblue;
+.nav-campus { 
+  background-color: rgba(32, 32, 44, 0); 
+  overflow: hidden; 
+  flex-direction: row; 
+  width: 100%; 
+  margin: 0px 50px 75px 0px; 
 }
-
-.qoute-links:hover{
-  color:chocolate;
+.nav-campus a { 
+  float: left; 
+  color: rgb(255, 252, 252); 
+  text-align: center; 
+  padding: 40px 0px 0px 30px; 
+  text-decoration: none; 
+  font-size: 1.5em; 
 }
-
+.nav-topical a:hover { 
+  color: rgb(206, 205, 205); 
+}
+.campus-container { 
+  position: relative; 
+  text-align: center;
+ }
+.background-image-campus { 
+  background-image: url("../img/campus.png");
+   background-size: cover; 
+   background-position: center center; 
+   height: 70vh; object-fit: cover; 
+   -webkit-mask-image: 
+   linear-gradient(black, transparent);
+   }
+.row { 
+  display: flex;
+ }
+.column { 
+  flex: 1 1 0%; 
+  padding: 5px; 
+}
+.campus-container { 
+  position: relative; 
+  text-align: center; 
+}
+.row { 
+  display: flex;
+ }
+.nav-topical { 
+  background-color: rgba(32, 32, 44, 0); 
+  overflow: hidden;
+   flex-direction: row; 
+   width: 100%; 
+   margin: 0px 50px 75px 0px; 
+  }
+@media only screen and (max-width: 700px) {
+  .nav-topical { 
+    font-size: x-small; 
+  }
+}
+.nav-topical a { 
+  float: left; 
+  color: rgb(252, 252, 252); 
+  text-align: center; 
+  padding: 40px 0px 0px 30px; 
+  text-decoration: 
+  none; 
+  font-size: 1.5em; 
+}
+.nav-topical a:hover { 
+  color: rgb(187, 185, 185); 
+}
+.fake-news { 
+  background-image: url("../img/fakeNewsBakgrunn.jpeg"); 
+  background-size: cover; 
+  background-position: center center; 
+  height: 100vh; 
+  object-fit: cover; 
+  -webkit-mask-image: 
+  linear-gradient(black, transparent);
+ }
+@media only screen and (max-width: 1000px) {
+  .fake-news { 
+    height: 50vh; 
+  }
+}
+@media only screen and (max-width: 700px) {
+  .fake-news { 
+    height: 30vh;
+   }
+}
+.grid-container { 
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 4%; 
+  margin-bottom: 50%; 
+}
+@media only screen and (max-width: 1000px) {
+  .grid-container { 
+    grid-template-columns: 1fr; 
+    gap: 50px; 
+    padding: 0px; 
+   
+  }
+}
+.fake-news-h1 { 
+  color: white; 
+  font-size: 50px; 
+  text-align: center; 
+  padding-top: 10%; }
+@media only screen and (max-width: 700px) {
+  .fake-news-h1 { 
+    font-size: x-large; 
+  }
+}
+.fake-news-h2 { 
+  color: white; 
+  font-size: 30px; 
+  text-align: center; 
+  padding: 5%; 
+}
+@media only screen and (max-width: 700px) {
+  .fake-news-h2 { 
+    font-size: larger; 
+    padding: 20px; 
+  }
+}
+.image-information { 
+  color: rgb(181, 181, 181); 
+  font-size: smaller; 
+  padding-left: 20px; 
+  text-decoration-line: unset; 
+}
+.image-information:hover { 
+  color: chocolate; 
+}
+.bilde-tekst-topical { 
+  padding: 40px; 
+  background-color: rgba(61, 81, 107, 0.38); 
+  border-radius: 30px; 
+  line-height: 2; 
+  font-size: 20px; 
+}
+.topical-bilde { 
+  height: auto; 
+  width: 100%; 
+  align-items: center; 
+  border-radius: 30px; 
+}
+h4, h5 { 
+  font-size: x-large; 
+}
+h6 { 
+  font-size: large; 
+}
+.norske-leksikon { 
+  width: 100px; 
+  height: 100px; 
+  padding: 20px; 
+  background-color: rgba(255, 255, 255, 0.91);
+ }
+.kilde-logo { 
+  width: 100px; 
+  height: 100px;
+ }
+.kilder-styling { 
+  background-color: rgba(70, 70, 68, 0.176);
+   background-size: 100%; 
+   padding: 10px; 
+   color: aliceblue; 
+  }
+@media only screen and (max-width: 500px) {
+  footer { 
+    margin-top: 250px;
+   }
+}
