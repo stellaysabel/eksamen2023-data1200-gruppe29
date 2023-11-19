@@ -1,16 +1,23 @@
 body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*changes the text font over the whole website to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
   background-color:rgba(2, 2, 25, 0.916);/*#3a4454; Used to change the background color of the website */
-  display: flex; /* sets your container to be a flexbox element */
-  flex-direction: column; /*sets how the flex items are placed in the flex container*/
   margin: 0;
 }
 
 main{
   margin-top: 0;
-  margin-bottom: 15%;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 15px;
+
   color:white;
-  align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  main{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 ul{
   list-style: none; /* for å ikke ha noe ved siden liste liksom punkter */
@@ -31,7 +38,6 @@ li {
 .nav a{
   float: left; /*places an element on the left or right side of its container*/
   color: rgb(173, 172, 172);/*Changes color of the text*/
-  text-align: center;/* Text is located in the center */
   padding: 40px 0px 0px 30px; /*  */
   text-decoration: none;  
   font-size: 1.5em;
@@ -41,15 +47,9 @@ li {
   color: rgb(252, 252, 252);
 }
 
-@media only screen and (max-width: 700px){
-  .nav{
-    font-size: x-small;
-  }
-}
-
 .main-page-container{
   position: relative;
-  text-align: center;
+
   opacity: value;
 }
 
@@ -84,14 +84,6 @@ li {
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-}
-
-
-@media only screen and (max-width: 700px){
-  .main-page-heading{
-    font-size: large;
-    align-items: center;
-  }
 }
 
 .intro-container {
@@ -321,7 +313,7 @@ div.desc {
   flex: 1;
   padding: 5px;
 }
-campus-container{
+.campus-container{
   position: relative;
   text-align: center;
   opacity: value;
@@ -348,6 +340,9 @@ campus-container{
   }
 }
 
+
+
+
 /*Topical page*/
 .nav-topical{
   background-color: rgba(32, 32, 44, 0);/*changes the background color in the navigation bar*/
@@ -355,6 +350,12 @@ campus-container{
   flex-direction: row; /*sets how flex items are places in the flex container*/
   width: 100%;/*Means navigation page is the same width as the parent element*/
   margin: 0px 50px 75px 0px;/* Margin properties are used to crate space around elemetns outside of any defines borders https://www.w3schools.com/css/css_margin.asp*/
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-topical {
+    font-size: x-small;
+  }
 }
 
 .nav-topical a{
@@ -382,20 +383,32 @@ campus-container{
 .fake-news-h1 {
   color: white;
   font-size: 50px;
-  justify-content: center;
-  padding: 5%;
+  text-align: center;
+  padding-top: 10%;
   
 }
-.fake-news-h2{
-  color: white;
-  font-size: 40px;
-  text-align: center;
+
+@media only screen and (max-width: 700px) {
+  .fake-news-h1 {
+    font-size: x-large;
+    padding: auto;
+  }
 }
 
-.Top-image {
-  height: 500px;
-  width: 100%;
+.fake-news-h2{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 5%;
 }
+
+@media only screen and (max-width: 700px) {
+  .fake-news-h2 {
+    font-size: larger;
+    padding: 20px; 
+  }
+}
+
 .image-information{
   color: rgb(181, 181, 181);
   font-size: smaller;
@@ -407,62 +420,26 @@ campus-container{
 color: chocolate;
 }
 
-.fake-news-list{
-line-height: 2;
-}
-
-h3 { 
-
-  padding: 0px;
+.bilde-tekst-topical{
+  padding: 40px;
+  background-color: rgba(61, 81, 107, 0.38);
+  border-radius: 30px; 
   line-height: 2;
-}
-
-
-h4, h5, h6{
-  font-size: large;
-}
-.hoved-tekst {
-  
-  line-height: 30px;
   font-size: 20px;
-  
-}  
-.grid-container{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  border-radius: 5px;
-  padding: 30px;
-}
- 
-.del4{
-  margin-top: 40px;
+
+.topical-bilde {
+  height: auto;
+  width: 100%;/*de kodene for å endre plassen til bildet sånn at det står i midten ved siden av teksten */
+  align-items: center;
+  border-radius: 30px;
 }
 
-.valg-bildet {
-  height: 100%;
-  width: 100%;
-  /*de kodene for å endre plassen til bildet sånn at det står i midten ved siden av teksten */
+h4, h5{
+  font-size: x-large;
 }
 
-.kunstig-intelligens {
-height: 90%;
-width: 100%;
-}
-.AI-bildet {
-height: 80%;
-width: 90%;
-padding-top: 30px;
-}
-.AI-1-bildet {
-height: 80%;
-width: 80%;
-padding-left: 100px;
-padding-top: 20px;
-}
-
-.AI-3-bildet {
-height: 300px;
-width: 500px;
+h6{
+  font-size: large;
 }
 
 .norske-leksikon{
@@ -484,7 +461,14 @@ width: 500px;
   padding: 10px;
   color: aliceblue;
   }
-.kilde-linker {
-  padding-top: 0%;
-  
+
+  @media only screen and (max-width: 500px) {
+    footer{
+      margin-top: 250px;
+    }
+    
   }
+
+
+
+
