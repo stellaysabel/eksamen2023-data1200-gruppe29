@@ -2,17 +2,21 @@ body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*changes the text font over the whole website to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
   height: 1000px; /* Used to enable scrolling */
   background-color:rgba(2, 2, 25, 0.916);/*#3a4454; Used to change the background color of the website */
-  display: flex; /* sets your container to be a flexbox element */
-  flex-direction: column; /*sets how the flex items are placed in the flex container*/
   margin: 0;
 }
 main{
   margin-top: 0;
   margin-left: 100px;
   margin-right: 100px;
-
+  margin-bottom: 15px;
   color:white;
-  align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  main{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 ul{
   list-style: none; /* for å ikke ha noe ved siden liste liksom punkter */
@@ -35,7 +39,6 @@ li {
 .nav a{
   float: left; /*places an element on the left or right side of its container*/
   color: rgb(173, 172, 172);/*Changes color of the text*/
-  text-align: center;/* Text is located in the center */
   padding: 40px 0px 0px 30px; /*  */
   text-decoration: none;  
   font-size: 1.5em;
@@ -44,9 +47,10 @@ li {
 .nav a:hover{
   color: rgb(252, 252, 252);
 }
+
 .main-page-container{
   position: relative;
-  text-align: center;
+
   opacity: value;
 }
 
@@ -71,14 +75,11 @@ li {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-
-main{
-  margin-top: 0;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 1000px;
-  color:white;
-  align-items: center;
+.main-page-container{
+  position: relative;
+  text-align: center;
+  
+  opacity: value;
 }
 
 .intro-container {
@@ -289,6 +290,9 @@ div.desc {
   display: flex;
 }
 
+
+
+
 /*Topical page*/
 .nav-topical{
   background-color: rgba(32, 32, 44, 0);/*changes the background color in the navigation bar*/
@@ -296,6 +300,12 @@ div.desc {
   flex-direction: row; /*sets how flex items are places in the flex container*/
   width: 100%;/*Means navigation page is the same width as the parent element*/
   margin: 0px 50px 75px 0px;/* Margin properties are used to crate space around elemetns outside of any defines borders https://www.w3schools.com/css/css_margin.asp*/
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-topical {
+    font-size: x-small;
+  }
 }
 
 .nav-topical a{
@@ -320,17 +330,34 @@ div.desc {
   -webkit-mask-image: linear-gradient(black, transparent);
   mask-image: linear-gradient(black, transparent);
 }
-.main-page-container{
-  position: relative;
-  text-align: center;
-  opacity: value;
+
+@media only screen and (max-width: 1000px) {
+  .fake-news {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .fake-news {
+    height: 30vh;
+  }
 }
 
 .grid-container{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 4%;
+  margin-bottom: 50%;
 }
+
+@media only screen and (max-width: 1000px) {
+  .grid-container {
+    grid-template-columns: 100000fr;
+    grid-gap: 50px;
+    padding: 0px;
+    align-items: center;
+  }
+}
+
 .fake-news-h1 {
   color: white;
   font-size: 50px;
@@ -338,12 +365,28 @@ div.desc {
   padding-top: 10%;
   
 }
+
+@media only screen and (max-width: 700px) {
+  .fake-news-h1 {
+    font-size: x-large;
+    padding: auto;
+  }
+}
+
 .fake-news-h2{
   color: white;
   font-size: 30px;
   text-align: center;
   padding: 5%;
 }
+
+@media only screen and (max-width: 700px) {
+  .fake-news-h2 {
+    font-size: larger;
+    padding: 20px; 
+  }
+}
+
 .image-information{
   color: rgb(181, 181, 181);
   font-size: smaller;
@@ -355,52 +398,19 @@ div.desc {
 color: chocolate;
 }
 
-/*.fake-news-list{
-line-height: 2;
-background-color: #6a929a;
-border-radius: 20px;
-}
-
-.hoved-tekst {
-  line-height: 2;
-  font-size: 20px;
-  
-}*/
-
 .bilde-tekst-topical{
   padding: 40px;
-  background-color: #6a929a;
-  border-radius: 20px; 
+  background-color: rgba(61, 81, 107, 0.38);
+  border-radius: 30px; 
   line-height: 2;
-  font-size: 20px; 
-
+  font-size: 20px;
 }
 
-.valg-bildet {
+.topical-bilde {
   height: auto;
   width: 100%;/*de kodene for å endre plassen til bildet sånn at det står i midten ved siden av teksten */
-}
-
-.kunstig-intelligens {
-height: auto;
-width: 100%;
-padding-top: 40px;
-}
-.AI-bildet {
-height: auto;
-width: 100%;
-padding-top: 30px;
-}
-.AI-1-bildet {
-height: auto;
-width: 100%;
-padding-left: 100px;
-padding-top: 20px;
-}
-
-.AI-3-bildet {
-height: auto;
-width: 100%;
+  align-items: center;
+  border-radius: 30px;
 }
 
 h4, h5{
@@ -430,4 +440,14 @@ h6{
   padding: 10px;
   color: aliceblue;
   }
+
+  @media only screen and (max-width: 500px) {
+    footer{
+      margin-top: 250px;
+    }
+    
+  }
+
+
+
 
