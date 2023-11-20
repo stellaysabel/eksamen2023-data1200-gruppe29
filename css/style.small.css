@@ -1,0 +1,388 @@
+img {
+  width: 100%
+}
+
+body { 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 1000px; 
+  background-color: rgba(2, 2, 25, 0.918); 
+  margin: 0px; 
+}
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+main { 
+  margin-left: 10px; 
+  margin-right: 10px; 
+  color: white; 
+}
+
+ul { 
+  list-style: none; 
+}
+li { 
+  font-size: 30px; 
+}
+.main-nav { 
+  background-color: rgba(32, 32, 44, 0); 
+  overflow: hidden; 
+  flex-direction: row; 
+  width: 100%; 
+  margin-bottom: 2rem;
+}
+.inner-page nav {
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+}
+.main-nav a { 
+  float: left;
+  color: rgb(173, 172, 172);
+  padding: 40px 0px 0px 30px;
+  text-decoration: none;
+  font-size: 1rem; 
+}
+.main-nav a:hover { 
+  color: rgb(252, 252, 252);
+ }
+.main-page-container { 
+  position: relative;
+ }
+.main-page-background { 
+  background-image: url("../img/photoeditoroslomet.jpg");
+  background-size: cover; 
+  background-position: center center; 
+  height: 100%; 
+  object-fit: cover;
+  -webkit-mask-image: linear-gradient(black, transparent); /* Funker bare med webkit nettlesere */
+}
+.main-page-heading { 
+  position: absolute; 
+  top: 40%; left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: floralwhite; 
+  font-size: 50px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  text-align: center; 
+}
+.main-page-container { 
+  position: relative; 
+  text-align: center; 
+}
+.heading-intro { 
+  text-align: center;
+ }
+.oslomet-intro { 
+  font-size: larger; 
+  display: flex; 
+  text-align: center;
+  width: 100%; 
+  line-height: 2; 
+  }
+.picture-link-campus { 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+}
+* { 
+  box-sizing: border-box; 
+}
+.card-campus { 
+  padding: 0px 6px; 
+ }
+
+.gallery { 
+  border: 1px solid rgb(204, 204, 204);
+ }
+.gallery:hover { 
+  border: 1px solid rgb(119, 119, 119);
+ }
+.gallery img { 
+  width: 100%; 
+  height: auto; 
+}
+.desc { 
+  padding: 15px; 
+  text-align: center;
+ }
+.clearfix::after { 
+  content: ""; 
+  display: table; 
+  clear: both; 
+}
+.container-block { 
+  display: flex; 
+  flex-direction: column; 
+  padding-top: 200px;
+  font-size: 30px;
+  text-align: center; 
+}
+.item-left-a { 
+  display: flex; 
+  flex-direction: column; 
+  background-color: rgba(35, 35, 93, 0.357); 
+  flex: 1 1 50%; 
+  align-items: center; 
+  padding: 50px; 
+  justify-content: center; }
+.item-right-a { 
+  display: flex; 
+  flex-direction: column; 
+  background-color: rgba(147, 168, 172, 0.706); 
+  padding: 70px; 
+  flex: 1 1 50%; 
+  align-items: center; 
+}
+.item-right-a img { 
+  padding-bottom: 50px; 
+}
+.button { 
+  background-color: rgb(212, 245, 245); 
+  border: wheat; 
+  border-radius: 10px; 
+  padding: 20px 32px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+}
+.item-right-f img { 
+  padding-bottom: 5px; 
+  height: auto; 
+  width: 100%; 
+}
+.item-right-f { 
+  display: flex; 
+  flex-direction: column; 
+  background-color: rgb(147, 168, 172); 
+  padding: 70px; 
+  flex: 1 1 50%; 
+  align-items: center; 
+}
+.item-left-f { 
+  display: flex; 
+  flex-direction: column; 
+  background-color: rgba(35, 35, 93, 0.357); 
+  flex: 1 1 50%; 
+  align-items: center; 
+  padding: 50px; 
+  justify-content: center; 
+}
+
+.contact { color: white; 
+  background-color: rgba(2, 2, 25, 0.23); 
+}
+.nav-campus { 
+  background-color: rgba(32, 32, 44, 0); 
+  overflow: hidden; 
+  flex-direction: row; 
+  width: 100%; 
+  margin: 0px 50px 75px 0px; 
+}
+.nav-campus a { 
+  float: left; 
+  color: rgb(255, 252, 252); 
+  text-align: center; 
+  padding: 40px 0px 0px 30px; 
+  text-decoration: none; 
+  font-size: 1.5em; 
+}
+.nav-topical a:hover { 
+  color: rgb(206, 205, 205); 
+}
+.campus-container { 
+  position: relative; 
+  text-align: center;
+ }
+.background-image-campus { 
+  background-image: url("../img/campus.png");
+   background-size: cover; 
+   background-position: center center; 
+   height: 70vh; object-fit: cover; 
+   -webkit-mask-image: 
+   linear-gradient(black, transparent);
+   }
+.row { 
+  display: flex;
+ }
+.column { 
+  flex: 1 1 0%; 
+  padding: 5px; 
+}
+.campus-container { 
+  position: relative; 
+  text-align: center; 
+}
+.row { 
+  display: flex;
+ }
+
+.nav-topical a { 
+  color: rgb(252, 252, 252); 
+}
+.nav-topical a:hover { 
+  color: rgb(187, 185, 185); 
+}
+.fake-news { 
+  background-image: url("../img/fakeNewsBakgrunn.jpeg"); 
+  background-size: cover; 
+  background-position: center center; 
+  height: 50vh; 
+  object-fit: cover; 
+  -webkit-mask-image: 
+  linear-gradient(black, transparent);
+ }
+.grid-container { 
+  display: grid; 
+  grid-template-columns: 1fr; 
+  gap: 50px; 
+  padding: 0px; 
+   
+}
+.fake-news-h1 { 
+  color: white; 
+  font-size: x-large;
+  text-align: center; 
+  padding-top: 10%; 
+}
+
+.fake-news-h2 { 
+  color: white; 
+  text-align: center; 
+  font-size: 30px; 
+  padding: 5%; 
+}
+.image-information { 
+  color: rgb(181, 181, 181); 
+  font-size: smaller; 
+  padding-left: 20px; 
+  text-decoration-line: unset; 
+}
+.image-information:hover { 
+  color: chocolate; 
+}
+.bilde-tekst-topical { 
+  padding: 40px; 
+  background-color: rgba(61, 81, 107, 0.38); 
+  border-radius: 30px; 
+  line-height: 2; 
+  font-size: 20px; 
+}
+.topical-bilde { 
+  height: auto; 
+  width: 100%; 
+  align-items: center; 
+  border-radius: 30px; 
+}
+h4, h5 { 
+  font-size: x-large; 
+}
+h6 { 
+  font-size: large; 
+}
+.norske-leksikon { 
+  width: 100px; 
+  height: 100px; 
+  padding: 20px; 
+  background-color: rgba(255, 255, 255, 0.91);
+ }
+.kilde-logo { 
+  width: 100px; 
+  height: 100px;
+ }
+.kilder-styling { 
+  background-color: rgba(70, 70, 68, 0.176);
+   background-size: 100%; 
+   padding: 10px; 
+   color: aliceblue; 
+}
+
+/* Accessibility style  */
+
+.introduction-accessibility { 
+  display: flex;
+  flex-direction: column;
+}
+
+.item-left-acessibility-intro {
+  padding: 50px;
+  padding-top: 0;
+  align-items: center;
+}
+
+
+.item-left-acessibility-intro .button {
+  margin-left: 50px;
+}
+
+.item-right-accessibility-intro img {
+  width: 70%;
+  border-radius: 40px; /* https://ianrmedia.unl.edu/resources/rounded-corners-images#:~:text=The%20CSS%20property%20border%2Dradius,an%20oval%20or%20a%20circle. */
+  margin-left: 10%;
+}
+
+.introduction-accessibility h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: white;
+}
+
+.title-indent {
+  font-size: 3rem;
+  margin: 0;
+  color: white;
+}
+
+.introduction-accessibility p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.main-accessibility-img img {
+  width: 100%;
+  border-radius: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.accessibility-test1 {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  border-radius: 40px;
+  background-color: #74bbbb;
+}
+ 
+.accessibility-test1-right {
+  flex: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 40px;
+  align-items: center;
+}
+
+.accessibility-test1-right h2 {
+  color: black;
+}
+
+.accessibility-test1-right p {
+  color: black;
+}
+
+.accessibility-test1-left {
+  padding: 0;
+}
+
+.accessibility-test1-left img {
+  width: 80%;
+  padding: 0;
+  border-radius: 40px;
+}
+
+.grid-image-right {
+  width: 80%;
+  margin: 0;
+}
