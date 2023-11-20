@@ -315,6 +315,11 @@ li {
   line-height: 2; 
   font-size: 20px; 
 }
+
+.image-wrapper {
+  padding: 2rem;
+}
+
 .topical-bilde { 
   height: auto; 
   width: 100%; 
