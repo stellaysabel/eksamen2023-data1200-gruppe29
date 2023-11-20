@@ -214,9 +214,6 @@ li {
    height: 70vh; object-fit: cover; 
    -webkit-mask-image: 
    linear-gradient(black, transparent);
-<<<<<<< HEAD
- }
-=======
    }
 
 .header-campus {
@@ -230,7 +227,6 @@ li {
 .tekst-campus p {
   text-align: center;
 }
->>>>>>> 96e8b536bb7452ae9e53fbd2da4eda89b3590f14
 
 .tekst-campus{
   background-color: rgba(58, 58, 105, 0.337);
@@ -241,24 +237,6 @@ li {
   line-height: 2;
   }
 
-<<<<<<< HEAD
-  .row img {
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-  }
-  
-  .img-campus {
-    border-radius: 20%;
-    height: 1000px;
-    width: 900px;
-    margin-left: 20%;
-  }
-
-.row { 
-  display: flex;
- }
-=======
 .row img {
   height: 200px;
   border-radius: 50%;
@@ -277,7 +255,6 @@ li {
 .row { 
   display: flex;
  }
->>>>>>> 96e8b536bb7452ae9e53fbd2da4eda89b3590f14
 
  .column { 
   flex: 1 1 0%; 
@@ -303,11 +280,7 @@ li {
   -webkit-mask-image: 
   linear-gradient(black, transparent);
  }
-<<<<<<< HEAD
 .grid-container { 
-=======
-.grid-container { 
->>>>>>> 96e8b536bb7452ae9e53fbd2da4eda89b3590f14
   display: grid; 
   grid-template-columns: 1fr; 
   gap: 50px; 
