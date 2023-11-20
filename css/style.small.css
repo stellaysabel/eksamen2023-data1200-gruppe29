@@ -100,22 +100,21 @@ li {
 .gallery { 
   border: 1px solid rgb(204, 204, 204);
  }
+
 .gallery:hover { 
   border: 1px solid rgb(119, 119, 119);
  }
+
 .gallery img { 
   width: 400px; 
   height: 500px; 
 }
+
 .desc { 
   padding: 15px; 
   text-align: center;
  }
-.clearfix::after { 
-  content: ""; 
-  display: table; 
-  clear: both; 
-}
+
 .container-block { 
   display: flex; 
   flex-direction: column; 
@@ -140,9 +139,11 @@ li {
   flex: 1 1 50%; 
   align-items: center; 
 }
+
 .item-right-a img { 
   padding-bottom: 50px; 
 }
+
 .button { 
   background-color: rgb(212, 245, 245); 
   border-radius: 10px; 
@@ -150,11 +151,13 @@ li {
   text-decoration: none; 
   font-size: 16px; 
 }
+
 .item-right-f img { 
   padding-bottom: 5px; 
   height: auto; 
   width: 100%; 
 }
+
 .item-right-f { 
   display: flex; 
   flex-direction: column; 
@@ -163,6 +166,7 @@ li {
   flex: 1 1 50%; 
   align-items: center; 
 }
+
 .item-left-f { 
   display: flex; 
   flex-direction: column; 
@@ -176,6 +180,7 @@ li {
 .contact { color: white; 
   background-color: rgba(2, 2, 25, 0.23); 
 }
+
 .nav-campus { 
   background-color: rgba(32, 32, 44, 0); 
   overflow: hidden; 
@@ -183,6 +188,7 @@ li {
   width: 100%; 
   margin: 0px 50px 75px 0px; 
 }
+
 .nav-campus a { 
   float: left; 
   color: rgb(255, 252, 252); 
@@ -191,13 +197,16 @@ li {
   text-decoration: none; 
   font-size: 1.5em; 
 }
+
 .nav-topical a:hover { 
   color: rgb(206, 205, 205); 
 }
+
 .campus-container { 
   position: relative; 
   text-align: center;
  }
+
 .background-image-campus { 
   background-image: url("../img/oslometcampus.jpg");
    background-size: cover; 
@@ -205,8 +214,7 @@ li {
    height: 70vh; object-fit: cover; 
    -webkit-mask-image: 
    linear-gradient(black, transparent);
-   }
-
+ }
 
 .tekst-campus{
   background-color: rgba(58, 58, 105, 0.337);
@@ -216,6 +224,7 @@ li {
   font-size: 20px;
   line-height: 2;
   }
+
   .row img {
     height: 400px;
     width: 400px;
@@ -228,13 +237,16 @@ li {
     width: 900px;
     margin-left: 20%;
   }
+
 .row { 
   display: flex;
  }
+
 .column { 
   flex: 1 1 0%; 
   padding: 5px; 
 }
+
 .campus-container { 
   position: relative; 
   text-align: center; 
@@ -243,9 +255,11 @@ li {
 .nav-topical a { 
   color: rgb(252, 252, 252); 
 }
+
 .nav-topical a:hover { 
   color: rgb(187, 185, 185); 
 }
+
 .fake-news { 
   background-image: url("../img/fakeNewsBakgrunn.jpeg"); 
   background-size: cover; 
@@ -255,13 +269,14 @@ li {
   -webkit-mask-image: 
   linear-gradient(black, transparent);
  }
+
 .grid-container { 
   display: grid; 
   grid-template-columns: 1fr; 
   gap: 50px; 
   padding: 0px; 
-   
 }
+
 .fake-news-h1 { 
   color: white; 
   font-size: x-large;
@@ -275,15 +290,18 @@ li {
   font-size: 30px; 
   padding: 5%; 
 }
+
 .image-information { 
   color: rgb(181, 181, 181); 
   font-size: smaller; 
   padding-left: 20px; 
   text-decoration-line: unset; 
 }
+
 .image-information:hover { 
   color: chocolate; 
 }
+
 .bilde-tekst-topical { 
   padding: 40px; 
   background-color: rgba(61, 81, 107, 0.38); 
@@ -291,6 +309,7 @@ li {
   line-height: 2; 
   font-size: 20px; 
 }
+
 .topical-bilde { 
   height: auto; 
   width: 100%; 
@@ -304,10 +323,12 @@ li {
   padding: 20px; 
   background-color: rgba(255, 255, 255, 0.91);
  }
+
 .kilde-logo { 
   width: 100px; 
   height: 100px;
  }
+ 
 .kilder-styling { 
   background-color: rgba(70, 70, 68, 0.176);
    background-size: 100%; 

@@ -10,8 +10,8 @@
 
 <body>
     <div class="main-page-container">
-        <div class="main-page-background">
-            <nav class="main-nav">
+        <div class="main-page-background"><!--Her ligger selve klassen bakgrunnsbildet i hjem siden-->
+            <nav class="main-nav"><!--Her ligger navigasjons baren som kobler seg til resten av sidene på nettsiden-->
                 <a href=".index.html">Home </a>
                 <a href="html/accessibility.html">Accessibility</a>
                 <a href="html/topical.html">Topical</a>
@@ -19,17 +19,17 @@
             </nav>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
         </div>
     </div>
-    <a class="image-information" href="https://www.oslomet.no/studier/ny-student">Photo: Oslomet</a>
-    <div class="main-page-heading">
+    <a class="image-information" href="https://www.oslomet.no/studier/ny-student">Photo: Oslomet</a> <!--Her finner du lenken til bildet som er blitt brukt til bakgrunnsbildet-->
+    <div class="main-page-heading"><!--Her har vi en klasse for bare headingen sånn at det blir mylig å redigere i css-->
         <h1>OsloMet Campus</h1>
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper"> <!--Dette er hoved boksen for paragrafene og bildene-->
         <main>
-            <div class="intro-container">
+            <div class="intro-container"><!--I denne boksen ligger alt intro informasjon om OsloMet som inneholder overskrift og en paragraf-->
                 <h2 class="heading-intro">ABOUT</h2>
                 <p class="oslomet-intro">
-                    <em>
+                    <em><!--Vi har brukt <em> for å merke fremhevet tekst-->
                     OsloMet, tidligere kjent som Høgskolen i Oslo og Akershus (HiOA), 
                     skiftet til universitetsstatus i 2018. Med hovedcampus plassert 
                     i Pilestredet på Bislett i Oslo, og en tilleggscampus på Kjeller i 
@@ -43,38 +43,37 @@
                     </em>
                 </p>
             </div>
-            <div class="picture-link-campus">
+            <div class="picture-link-campus"><!--picture-link-campus er div boksen som kobler alle bildene nedenfor til-->
                 
-                <div class="card-campus">
-                <div class="gallery">
-                    <a target="_blank" href="html/campus.html">
-                    <img src="img/datatorget 2.17.48 PM.jpg" alt="campus">
-                    </a>
-                    <a class="image-information" href="img/datatorget 2.17.48 PM.jpg">Photo: Ysabel</a>
-                    <div class="desc">Computer lab</div>
-                </div>
+                <div class="card-campus"><!--card campus boksen gir padding-->
+                    <div class="gallery"><!--div box containing fist pictures under the "about" text-->
+                        <a target="_blank" href="html/campus.html"><!--Denne linken fører deg til campus siden-->
+                        <img src="img/datatorget 2.17.48 PM.jpg" alt="campus">
+                        </a>
+                        <a class="image-information" href="img/datatorget 2.17.48 PM.jpg">Photo: Ysabel</a><!--her finner du linken til bildet og hvem den ble tatt av-->
+                        <div class="desc">Computer lab</div><!--Her finner du hvor dette undertittelen til bildet -->
+                    </div>
                 </div>
 
                 <div class="card-campus">
                     <div class="gallery">
-                    <a target="_blank" href="html/campus.html">
-                        <img src="/img/cantine.jpg" alt="campus">
-                    </a>
-                    <a class="image-information" href="/img/cantine.jpg">Photo: Ysabel</a>
-                    <div class="desc">Cantine</div>
+                        <a target="_blank" href="html/campus.html">
+                            <img src="/img/cantine.jpg" alt="campus">
+                        </a>
+                        <a class="image-information" href="/img/cantine.jpg">Photo: Ysabel</a>
+                        <div class="desc">Cantine</div>
                     </div>
                 </div>
                 
                 <div class="card-campus">
-                <div class="gallery">
-                    <a target="_blank" href="html/campus.html">
-                    <img src="img/library.jpg" alt="campus">
-                    </a>
-                    <a class="image-information" href="img/library.jpg">Photo: Ysabel</a>
-                    <div class="desc">Library </div>
+                    <div class="gallery">
+                        <a target="_blank" href="html/campus.html">
+                        <img src="img/library.jpg" alt="campus">
+                        </a>
+                        <a class="image-information" href="img/library.jpg">Photo: Ysabel</a>
+                        <div class="desc">Library </div>
+                    </div>
                 </div>
-                </div>
-                <div class="clearfix"></div>
             
             </div>
 
