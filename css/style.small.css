@@ -245,13 +245,12 @@ li {
 
 .row { 
   display: flex;
-}
+ }
 
-.column { 
+ .column { 
   flex: 1 1 0%; 
   padding: 5px; 
 }
-
 .campus-container { 
   position: relative; 
   text-align: center; 
@@ -260,11 +259,9 @@ li {
 .nav-topical a { 
   color: rgb(252, 252, 252); 
 }
-
 .nav-topical a:hover { 
   color: rgb(187, 185, 185); 
 }
-
 .fake-news { 
   background-image: url("../img/fakeNewsBakgrunn.jpeg"); 
   background-size: cover; 
@@ -274,15 +271,13 @@ li {
   -webkit-mask-image: 
   linear-gradient(black, transparent);
  }
-
- .grid-container { 
+.grid-container { 
   display: grid; 
   grid-template-columns: 1fr; 
   gap: 50px; 
   padding: 0px; 
    
 }
-
 .fake-news-h1 { 
   color: white; 
   font-size: x-large;
@@ -296,18 +291,15 @@ li {
   font-size: 30px; 
   padding: 5%; 
 }
-
 .image-information { 
   color: rgb(181, 181, 181); 
   font-size: smaller; 
   padding-left: 20px; 
   text-decoration-line: unset; 
 }
-
 .image-information:hover { 
   color: chocolate; 
 }
-
 .bilde-tekst-topical { 
   padding: 40px; 
   background-color: rgba(61, 81, 107, 0.38); 
@@ -315,7 +307,6 @@ li {
   line-height: 2; 
   font-size: 20px; 
 }
-
 .topical-bilde { 
   height: auto; 
   width: 100%; 
@@ -329,13 +320,11 @@ li {
   padding: 20px; 
   background-color: rgba(255, 255, 255, 0.91);
  }
-
- .kilde-logo { 
+.kilde-logo { 
   width: 100px; 
   height: 100px;
  }
-
- .kilder-styling { 
+.kilder-styling { 
   background-color: rgba(70, 70, 68, 0.176);
    background-size: 100%; 
    padding: 10px; 
