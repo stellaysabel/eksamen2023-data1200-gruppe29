@@ -60,6 +60,10 @@
     gap: 4%; 
     margin-bottom: 50%;
   }
-  
+
+  /* Campus */
+  .row img {
+    height: 450px;
+  }  
 
 }
