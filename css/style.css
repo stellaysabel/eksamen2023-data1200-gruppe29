@@ -90,7 +90,7 @@ line-height: 2;
   box-sizing: border-box; /* Inkluder padding i størrelsen */
 }
 .background-image-campus{
-  background-image: url(../img/campus.png);
+  background-image: url(../img/oslometcampus.jpg);
   background-size: cover;
   background-position: center;
   height: 60vh;
