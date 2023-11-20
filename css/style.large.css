@@ -24,6 +24,10 @@
 
 
   /* Accessibility */
+
+  .main-accessibility {
+    margin-right: 30px;
+  }
   .introduction-accessibility {
     flex-direction: row;
   }
