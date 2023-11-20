@@ -65,18 +65,13 @@ li {
   font-family: Arial, Helvetica, sans-serif; 
   text-align: center; 
 }
-/*.main-page-container { 
-  position: relative; 
-  text-align: center; 
-} */
+
 .heading-intro { 
   text-align: center;
  }
 .oslomet-intro { 
   font-size: larger; 
-  /*display: flex; */
   text-align: center;
-  /* width: 100%; */
   line-height: 2; 
   }
 .picture-link-campus { 
