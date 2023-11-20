@@ -307,11 +307,6 @@ h6 {
   align-items: center;
 }
 
-
-.item-left-acessibility-intro .button {
-  margin-left: 50px;
-}
-
 .item-right-accessibility-intro {
  padding-left: 40px;
  padding-right: 40px;
@@ -335,7 +330,8 @@ h6 {
 }
 
 .introduction-accessibility p {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: white;
   margin-bottom: 60px;
 }
@@ -349,7 +345,7 @@ h6 {
 
 .accessibility-test1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 50px;
   border-radius: 40px;
   background-color: #74bbbb;

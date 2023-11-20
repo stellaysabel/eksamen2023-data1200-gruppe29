@@ -28,9 +28,22 @@
     flex-direction: row;
   }
 
-  .title-indent,
+  .title-indent {
+    padding-left: 50px;
+  }
+
   .introduction-accessibility p {
     padding-left: 50px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .item-left-acessibility-intro .button {
+    margin-left: 50px;
+  }
+
+  .accessibility-test1 {
+    flex-direction: row;
   }
 
   /* Topical */
