@@ -83,6 +83,8 @@ line-height: 2;
 /*Oslomet Campus page*/
 .row {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .column {
   flex: 0 0 33.33%; /* Sett flex til 33.33% */
@@ -132,8 +134,9 @@ img {
   margin: 50px;
   font-size: 20px;
   line-height: 2;
-
 }
+
+
 .img-campus{
   border-radius: 20%;
   height: 1000px;
