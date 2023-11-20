@@ -33,11 +33,9 @@ li {
   font-size: 30px; 
 }
 
+/* main page navigation bar */
 .main-nav { 
-  /* background-color: rgba(32, 32, 44, 0); */
   overflow: hidden; 
-  /* flex-direction: row; 
-  width: 100%; */
   margin-bottom: 2rem;
 }
 
@@ -53,11 +51,13 @@ li {
   color: rgb(252, 252, 252);
  }
 
+/* inner pages navigation bar */
  .inner-page nav {
   border-bottom: 1px solid white;
   padding-bottom: 1rem;
 }
 
+/* index page style*/
  .main-page-background { 
   background-image: url("../img/photoeditoroslomet.jpg");
   background-size: cover; 
