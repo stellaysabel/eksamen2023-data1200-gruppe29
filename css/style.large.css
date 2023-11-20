@@ -1,0 +1,48 @@
+@media (min-width: 992px) { /* Large Screen */
+ 
+  .main-nav a {
+    font-size: 1.5rem;
+  }
+
+  main { 
+    margin: 0px 100px 15px; 
+    color: white; 
+  }
+
+  .container-block { 
+    flex-direction: row; 
+  }
+  
+  /* Homepage */
+  .main-page-background { 
+    height: 100vh;
+  }
+
+  .intro-container { 
+    padding: 150px;
+   }
+
+
+  /* Accessibility */
+  .introduction-accessibility {
+    flex-direction: row;
+  }
+
+  .title-indent,
+  .introduction-accessibility p {
+    padding-left: 50px;
+  }
+
+  /* Topical */
+  .fake-news { 
+    height: 100vh; 
+  }
+
+  .grid-container { 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 4%; 
+    margin-bottom: 50%;
+  }
+  
+
+}

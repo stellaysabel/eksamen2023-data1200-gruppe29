@@ -3,123 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.small.css">
+    <link rel="stylesheet" href="../css/style.medium.css">
+    <link rel="stylesheet" href="../css/style.large.css">
+    <!-- DISTRIBUTION <link rel="stylesheet" href="../css/dist/style.min.css">-->
+
     <title>Accessibility</title>
 </head>
-<body>
-    <div class="nav">
-        <a href="../index.html">Home</a>
-        <a href="../html/accessibility.html">Accessibility</a>
-        <a href="../html/topical.html">Topical</a>
-        <a href="../html/campus.html">Oslomet Campus</a>
-    </div>
-
-   <!-- 
-    <div class="introduction-accessibility">
-        <header>
-            <h1>Accessibility</h1>
-        </header>
-        <main>
+<body class="inner-page">
+    <div class="wrapper">
+        <nav class="main-nav">
+            <a href="../index.html">Home</a>
+            <a href="../html/accessibility.html">Accessibility</a>
+            <a href="../html/topical.html">Topical</a>
+            <a href="../html/campus.html">Oslomet Campus</a>
+        </nav>
+    
+        <section class="introduction-accessibility">
             <div class="item-left-acessibility-intro">
+                <h1>Involving <div class="title-indent">Everybody</div></h1>
                 <p>Accessibility refers to the design and implementation of websites or software applications that can be used by people with disabilities such as blindness or decreased capebilities.
                 When making a website you can make sure that, almost, all of your potential visitors, including those with disabilities, have a good user experience and can easily access the information
                 by making your website accessible. When the website is designed with accessibility and universal design in mind, it also becomes more user-friendly for all users. This is why we choose to implement ...</p>
+                <a href="https://wave.webaim.org/" class="button">Accessibility testing</a> <!-- taken from W3Schools: https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_basic-->
             </div>
             <div class="item-right-accessibility-intro">
                 <img src="../img/accessibility-page-image.png" alt="">
             </div>
-        </main>
-    </div>
-   -->
-   
-    <section class="introduction-accessibility">
-        <div class="item-left-acessibility-intro">
-            <h1>Involving</h1>
-            <h2>Everybody</h2>
-            <p>Accessibility refers to the design and implementation of websites or software applications that can be used by people with disabilities such as blindness or decreased capebilities.
-            When making a website you can make sure that, almost, all of your potential visitors, including those with disabilities, have a good user experience and can easily access the information
-            by making your website accessible. When the website is designed with accessibility and universal design in mind, it also becomes more user-friendly for all users. This is why we choose to implement ...</p>
-            <a href="https://wave.webaim.org/" class="button">Accessibility testing</a> <!-- taken from W3Schools: https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_basic-->
-        </div>
-        <div class="item-right-accessibility-intro">
-            <img src="../img/accessibility-page-image.png" alt="">
-        </div>
-    </section>
-
-    <main class="main-accessibility">
-        <div class="main-accessibility-img">
-            <img src="../img/accessibility-test1-jpg.png" alt="">
-        </div>
-
-        <section class="accessibility-test1">
-            <div class="accessibility-test1-left">
-                <img src="../img/accessibility-test.png" alt="WAVE - web accessibility evalutaion tool's site showing errors" class="grid-image-right">
-            </div>
-            <div class="accessibility-test1-right">
-                <h2>Alternative text</h2>
-                <p>After connecting our website to the accessibility test, we identified two alerts: "A nearby image has the same alternative text." The alt for all images was set to "campus." In order to enhance the accessibility for individuals who cannot read or see, we have replaced the generic alternative text with more descriptive options, making it better when using the text-to-speech. This update has been applied to all of our images.</p>
-            </div>
         </section>
+
+        <main class="main-accessibility">
+            <div class="main-accessibility-img">
+                <img src="../img/accessibility-test1-jpg.png" alt="">
+            </div>
+
+            <section class="accessibility-test1">
+                <div class="accessibility-test1-left">
+                    <img src="../img/accessibility-test.png" alt="WAVE - web accessibility evalutaion tool's site showing errors" class="grid-image-right">
+                </div>
+                <div class="accessibility-test1-right">
+                    <h2>Alternative text</h2>
+                    <p>After connecting our website to the accessibility test, we identified two alerts: "A nearby image has the same alternative text." The alt for all images was set to "campus." In order to enhance the accessibility for individuals who cannot read or see, we have replaced the generic alternative text with more descriptive options, making it better when using the text-to-speech. This update has been applied to all of our images. Now the only alerts are the photo images, which are from the same source.</p>
+                </div>
+            </section>
+            
+        </main>
+
+        <!-- <main>
+            <h2>What is Accesibility?</h2>
+            <p>"Accessible means a person with a disability is afforded the opportunity to acquire the same information, engage in the same interactions,
+                and enjoy the same services as a person without a disability in an equally effective and equally integrated manner, with substantially equivalent ease of use. 
+                The person with a disability must be able to obtain the information as fully, equally and independently as a person without a disability. 
+                Although this might not result in identical ease of use compared to that of persons without disabilities, it still must ensure equal opportunity to 
+                the educational benefits and opportunities afforded by the technology and equal treatment in the use of such technology.",
+                according to the <a href="https://case.edu/accessibility/what-accessibility#:~:text=Accessible%20means%20a%20person%20with,substantially%20equivalent%20ease%20of%20use.">U.S Department of Education’s Office for Civil Rights.</a></p>
+            
+            
+                <h3>How to Make your Website Accessible</h3>
+            <p>
+                Accessibility refers to the design and implementation of websites or software applications that can be used by people with disabilities such as blindness or decreased capebilities.
+                When making a website you can make sure that, almost, all of your potential visitors, including those with disabilities, have a good user experience and can easily access the information
+                by making your website accessible. When the website is designed with accessibility and universal design in mind, it also becomes more user-friendly for all users. This is why we choose to implement .................
+            
+                <br><br>
+            -hva slags valg gjorde vi for å gjøre siden accesbible FØR vi gjorde testene OG HVORFOR
+            
+            </p>
         
-    </main>
 
-    
+            <h4>Accesibility Tests</h4>
 
-    
+            <ul>
+        <p>The f    ollowing tests are performed on the website: </p>
+                <li>Keyboard navigation</li>
+                <li>Screen reader compatibility</li>
+                <li>Color contrasts</li>
+                <li>Resize text for better readability</li>
+                <li>Alt tags and descriptions of images</li>
+                <li>Form validation</li>
+            </ul>          
+            <p>BILDER AV TESTER 
+                <br>
+                - This is what we did to improved our site for a better user experience: 
+                <br>
+                - Tell us how you checked, and coding choices you made for universal design beyond what an automated test could tell you.  
+                <br>
+                - Tell us how you checked, and coding choices you made for universal design 	beyond what an automated test could tell you.  
+                <br>
+                - You are recommended to use screenshots from the testing site and of your code 
+                <br>
+                - lack of images may affect your score. !!!!!!!!
+            </p>
+            
+            </main> -->
 
-    <!-- <main>
-        <h2>What is Accesibility?</h2>
-        <p>"Accessible means a person with a disability is afforded the opportunity to acquire the same information, engage in the same interactions,
-            and enjoy the same services as a person without a disability in an equally effective and equally integrated manner, with substantially equivalent ease of use. 
-            The person with a disability must be able to obtain the information as fully, equally and independently as a person without a disability. 
-            Although this might not result in identical ease of use compared to that of persons without disabilities, it still must ensure equal opportunity to 
-            the educational benefits and opportunities afforded by the technology and equal treatment in the use of such technology.",
-            according to the <a href="https://case.edu/accessibility/what-accessibility#:~:text=Accessible%20means%20a%20person%20with,substantially%20equivalent%20ease%20of%20use.">U.S Department of Education’s Office for Civil Rights.</a></p>
-         
-         
-            <h3>How to Make your Website Accessible</h3>
-        <p>
-            Accessibility refers to the design and implementation of websites or software applications that can be used by people with disabilities such as blindness or decreased capebilities.
-            When making a website you can make sure that, almost, all of your potential visitors, including those with disabilities, have a good user experience and can easily access the information
-            by making your website accessible. When the website is designed with accessibility and universal design in mind, it also becomes more user-friendly for all users. This is why we choose to implement .................
-        
-            <br><br>
-        -hva slags valg gjorde vi for å gjøre siden accesbible FØR vi gjorde testene OG HVORFOR
-        
-        </p>
-    
-
-         <h4>Accesibility Tests</h4>
-
-        <ul>
-    <p>The f    ollowing tests are performed on the website: </p>
-            <li>Keyboard navigation</li>
-            <li>Screen reader compatibility</li>
-            <li>Color contrasts</li>
-            <li>Resize text for better readability</li>
-            <li>Alt tags and descriptions of images</li>
-            <li>Form validation</li>
-         </ul>          
-        <p>BILDER AV TESTER 
-            <br>
-            - This is what we did to improved our site for a better user experience: 
-            <br>
-            - Tell us how you checked, and coding choices you made for universal design beyond what an automated test could tell you.  
-            <br>
-            - Tell us how you checked, and coding choices you made for universal design 	beyond what an automated test could tell you.  
-            <br>
-            - You are recommended to use screenshots from the testing site and of your code 
-            <br>
-            - lack of images may affect your score. !!!!!!!!
-        </p>
-        
-        </main> -->
-
-    <footer>
-        <p>naber1286@oslomet.no</p>
-        <p>measl6512@olsomet.no</p>
-        <p>esbor7131@oslomet.no</p>
-        <p>gabal8187@oslomet.no</p>
-    </footer>
+        <footer>
+            <p>naber1286@oslomet.no</p>
+            <p>measl6512@olsomet.no</p>
+            <p>esbor7131@oslomet.no</p>
+            <p>gabal8187@oslomet.no</p>
+        </footer>
+    </div>
 </body>
 </html>
