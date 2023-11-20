@@ -1,20 +1,23 @@
 <!DOCTYPE html> 
 <html>
     <head>
-        <link rel="stylesheet" href="../css/style.css"> <!-- det koblir html til css -->
+        <link rel="stylesheet" href="../css/style.small.css">
+        <link rel="stylesheet" href="../css/style.medium.css">
+        <link rel="stylesheet" href="../css/style.large.css">
+        <!-- DISTRIBUTION <link rel="stylesheet" href="../css/dist/style.min.css">-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>topical page </title>
     </head>
     
-    <body>
+    <body class="inner-page">
     <header>
         <div class="fake-news"> 
-            <div class="nav-topical">
+            <nav class="main-nav nav-topical"><!-- nav-topical will override css from main-nav. This is to save lines of code and prevent repeatition-->
                 <a href="../index.html">Home</a>
                 <a href="../html/accessibility.html">Accessibility</a>
                 <a href="../html/topical.html">Topical</a>
                 <a href="../html/campus.html">Oslomet Campus</a>
-            </div>
+            </nav>
         </div>
 
         <a class="image-information" href="https://news.sky.com/story/prebunking-the-new-tactic-to-help-you-people-spot-fake-news-12811636">Photo: sky news</a>
@@ -28,7 +31,7 @@
         </h2>
     </header>
 
-    <main>
+    <main class="wrapper">
         <div class="grid-container">
 
             <div>

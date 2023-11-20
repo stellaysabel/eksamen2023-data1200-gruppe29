@@ -1,46 +1,49 @@
+img {
+  width: 100%
+}
+
 body { 
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   height: 1000px; 
   background-color: rgba(2, 2, 25, 0.918); 
   margin: 0px; 
 }
-
 .wrapper {
   max-width: 1400px;
   margin: 0 auto;
 }
 
 main { 
-  margin: 0px 100px 15px; 
+  margin-left: 10px; 
+  margin-right: 10px; 
   color: white; 
 }
-@media only screen and (max-width: 1000px) {
-  main { 
-    margin-left: 10px; 
-    margin-right: 10px; 
-  }
-}
+
 ul { 
   list-style: none; 
 }
 li { 
   font-size: 30px; 
 }
-.nav { 
+.main-nav { 
   background-color: rgba(32, 32, 44, 0); 
   overflow: hidden; 
   flex-direction: row; 
   width: 100%; 
-  margin: 0px 50px 75px 0px; 
+  margin-bottom: 2rem;
 }
-.nav a { 
+.inner-page nav {
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+}
+.main-nav a { 
   float: left;
   color: rgb(173, 172, 172);
   padding: 40px 0px 0px 30px;
   text-decoration: none;
-  font-size: 1.5em; 
-  }
-.nav a:hover { 
+  font-size: 1rem; 
+}
+.main-nav a:hover { 
   color: rgb(252, 252, 252);
  }
 .main-page-container { 
@@ -50,10 +53,10 @@ li {
   background-image: url("../img/photoeditoroslomet.jpg");
   background-size: cover; 
   background-position: center center; 
-  height: 100vh; 
+  height: 100%; 
   object-fit: cover;
-  -webkit-mask-image: linear-gradient(black, transparent);
-   }
+  -webkit-mask-image: linear-gradient(black, transparent); /* Funker bare med webkit nettlesere */
+}
 .main-page-heading { 
   position: absolute; 
   top: 40%; left: 50%; 
@@ -67,9 +70,6 @@ li {
   position: relative; 
   text-align: center; 
 }
-.intro-container { 
-  padding: 150px;
- }
 .heading-intro { 
   text-align: center;
  }
@@ -82,30 +82,16 @@ li {
   }
 .picture-link-campus { 
   display: flex; 
-  flex-direction: row; 
+  flex-direction: column; 
   justify-content: center; 
-  gap: 50px; 
 }
 * { 
   box-sizing: border-box; 
 }
-.responsive-campus { 
+.card-campus { 
   padding: 0px 6px; 
-  float: left; 
-  width: 25%; 
-  flex-direction: row;
  }
-@media only screen and (max-width: 700px) {
-  .responsive-campus { 
-    width: 50%; 
-    margin: 6px 0px; 
-  }
-}
-@media only screen and (max-width: 500px) {
-  .responsive-campus { 
-    width: 100%; 
-  }
-}
+
 .gallery { 
   border: 1px solid rgb(204, 204, 204);
  }
@@ -125,9 +111,9 @@ li {
   display: table; 
   clear: both; 
 }
-.container { 
+.container-block { 
   display: flex; 
-  flex-direction: row; 
+  flex-direction: column; 
   padding-top: 200px;
   font-size: 30px;
   text-align: center; 
@@ -166,7 +152,7 @@ li {
 .item-right-f img { 
   padding-bottom: 5px; 
   height: auto; 
-  width: 600px; 
+  width: 100%; 
 }
 .item-right-f { 
   display: flex; 
@@ -185,11 +171,7 @@ li {
   padding: 50px; 
   justify-content: center; 
 }
-@media (max-width: 800px) {
-  .fake-news-container { 
-    flex-direction: column; 
-  }
-}
+
 .contact { color: white; 
   background-color: rgba(2, 2, 25, 0.23); 
 }
@@ -237,26 +219,9 @@ li {
 .row { 
   display: flex;
  }
-.nav-topical { 
-  background-color: rgba(32, 32, 44, 0); 
-  overflow: hidden;
-   flex-direction: row; 
-   width: 100%; 
-   margin: 0px 50px 75px 0px; 
-  }
-@media only screen and (max-width: 700px) {
-  .nav-topical { 
-    font-size: x-small; 
-  }
-}
+
 .nav-topical a { 
-  float: left; 
   color: rgb(252, 252, 252); 
-  text-align: center; 
-  padding: 40px 0px 0px 30px; 
-  text-decoration: 
-  none; 
-  font-size: 1.5em; 
 }
 .nav-topical a:hover { 
   color: rgb(187, 185, 185); 
@@ -265,56 +230,30 @@ li {
   background-image: url("../img/fakeNewsBakgrunn.jpeg"); 
   background-size: cover; 
   background-position: center center; 
-  height: 100vh; 
+  height: 50vh; 
   object-fit: cover; 
   -webkit-mask-image: 
   linear-gradient(black, transparent);
  }
-@media only screen and (max-width: 1000px) {
-  .fake-news { 
-    height: 50vh; 
-  }
-}
-@media only screen and (max-width: 700px) {
-  .fake-news { 
-    height: 30vh;
-   }
-}
 .grid-container { 
   display: grid; 
-  grid-template-columns: repeat(2, 1fr); 
-  gap: 4%; 
-  margin-bottom: 50%; 
-}
-@media only screen and (max-width: 1000px) {
-  .grid-container { 
-    grid-template-columns: 1fr; 
-    gap: 50px; 
-    padding: 0px; 
+  grid-template-columns: 1fr; 
+  gap: 50px; 
+  padding: 0px; 
    
-  }
 }
 .fake-news-h1 { 
   color: white; 
-  font-size: 50px; 
+  font-size: x-large;
   text-align: center; 
-  padding-top: 10%; }
-@media only screen and (max-width: 700px) {
-  .fake-news-h1 { 
-    font-size: x-large; 
-  }
+  padding-top: 10%; 
 }
+
 .fake-news-h2 { 
   color: white; 
-  font-size: 30px; 
   text-align: center; 
+  font-size: 30px; 
   padding: 5%; 
-}
-@media only screen and (max-width: 700px) {
-  .fake-news-h2 { 
-    font-size: larger; 
-    padding: 20px; 
-  }
 }
 .image-information { 
   color: rgb(181, 181, 181); 
@@ -359,28 +298,21 @@ h6 {
    background-size: 100%; 
    padding: 10px; 
    color: aliceblue; 
-  }
-@media only screen and (max-width: 500px) {
-  footer { 
-    margin-top: 250px;
-   }
 }
 
 /* Accessibility style  */
 
-.introduction-accessibility {
+.introduction-accessibility { 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .item-left-acessibility-intro {
-  flex: 50%;
   padding: 50px;
   padding-top: 0;
-  padding-right: 10px;
-  margin-right: 40px;
   align-items: center;
 }
+
 
 .item-left-acessibility-intro .button {
   margin-left: 50px;
@@ -398,15 +330,13 @@ h6 {
   color: white;
 }
 
-.introduction-accessibility h2 {
+.title-indent {
   font-size: 3rem;
   margin: 0;
-  padding-left: 50px;
   color: white;
 }
 
 .introduction-accessibility p {
-  padding-left: 50px;
   font-size: 1.5rem;
   color: white;
 }

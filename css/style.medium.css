@@ -1,0 +1,21 @@
+@media (min-width: 768px) { /* Medium Screen */
+  
+  /* Homepage */
+  .picture-link-campus { 
+    flex-direction: row; 
+  }
+
+  .item-left-acessibility-intro {
+    flex: 70%;
+  }
+
+  /* Topical */
+  .fake-news { 
+    height: 30vh;
+  }
+
+  .fake-news-h1 { 
+    font-size: 50px;    
+  }
+
+}
