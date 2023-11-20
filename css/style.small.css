@@ -28,8 +28,8 @@ li {
   /* background-color: rgba(32, 32, 44, 0); */
   overflow: hidden; 
   /* flex-direction: row; 
-  width: 100%; 
-  margin-bottom: 2rem; */
+  width: 100%; */
+  margin-bottom: 2rem;
 }
 .inner-page nav {
   border-bottom: 1px solid white;
