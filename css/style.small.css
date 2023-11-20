@@ -138,15 +138,10 @@ li {
 }
 .button { 
   background-color: rgb(212, 245, 245); 
-  border: wheat; 
   border-radius: 10px; 
   padding: 20px 32px; 
-  text-align: center; 
   text-decoration: none; 
-  display: inline-block; 
   font-size: 16px; 
-  margin: 4px 2px; 
-  cursor: pointer; 
 }
 .item-right-f img { 
   padding-bottom: 5px; 
@@ -317,10 +312,14 @@ h6 {
   margin-left: 50px;
 }
 
+.item-right-accessibility-intro {
+ padding-left: 40px;
+ padding-right: 40px;
+}
+
 .item-right-accessibility-intro img {
-  width: 70%;
-  border-radius: 40px; /* https://ianrmedia.unl.edu/resources/rounded-corners-images#:~:text=The%20CSS%20property%20border%2Dradius,an%20oval%20or%20a%20circle. */
-  margin-left: 10%;
+  width: 100%;
+  border-radius: 40px; /* https://ianrmedia.unl.edu/resources/rounded-corners-images#:~:text=The%20CSS%20property%20border%2Dradius,an%20oval%20or%20a%20circle. */ 
 }
 
 .introduction-accessibility h1 {
@@ -338,6 +337,7 @@ h6 {
 .introduction-accessibility p {
   font-size: 1.5rem;
   color: white;
+  margin-bottom: 60px;
 }
 
 .main-accessibility-img img {
