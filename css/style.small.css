@@ -104,8 +104,8 @@ li {
   border: 1px solid rgb(119, 119, 119);
  }
 .gallery img { 
-  width: 100%; 
-  height: auto; 
+  width: 400px; 
+  height: 500px; 
 }
 .desc { 
   padding: 15px; 
@@ -131,6 +131,7 @@ li {
   align-items: center; 
   padding: 50px; 
   justify-content: center; }
+  
 .item-right-a { 
   display: flex; 
   flex-direction: column; 
