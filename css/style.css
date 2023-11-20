@@ -74,11 +74,11 @@ line-height: 2;
   color: rgb(206, 205, 205);
 }
 
-/*.main-page-container{
+.main-page-container{
   position: relative;
   text-align: center;
   opacity: value;
-} */
+}
 
 /*Oslomet Campus page*/
 .row {
