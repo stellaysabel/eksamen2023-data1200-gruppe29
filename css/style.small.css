@@ -1,15 +1,23 @@
-img {
-  width: 100%
-}
-
 body { 
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: rgba(2, 2, 25, 0.918); 
   margin: 0px; 
 }
+
 .wrapper {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+h4, h5 { 
+  font-size: x-large; 
+}
+h6 { 
+  font-size: large; 
+}
+
+img {
+  width: 100%
 }
 
 main { 
@@ -24,6 +32,7 @@ ul {
 li { 
   font-size: 30px; 
 }
+
 .main-nav { 
   /* background-color: rgba(32, 32, 44, 0); */
   overflow: hidden; 
@@ -31,10 +40,7 @@ li {
   width: 100%; */
   margin-bottom: 2rem;
 }
-.inner-page nav {
-  border-bottom: 1px solid white;
-  padding-bottom: 1rem;
-}
+
 .main-nav a { 
   float: left;
   color: rgb(173, 172, 172);
@@ -42,13 +48,17 @@ li {
   text-decoration: none;
   font-size: 1rem; 
 }
+
 .main-nav a:hover { 
   color: rgb(252, 252, 252);
  }
-/* .main-page-container { 
-  position: relative;
- } */
-.main-page-background { 
+
+ .inner-page nav {
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+}
+
+ .main-page-background { 
   background-image: url("../img/photoeditoroslomet.jpg");
   background-size: cover; 
   background-position: center center; 
@@ -56,6 +66,7 @@ li {
   object-fit: cover;
   -webkit-mask-image: linear-gradient(black, transparent); /* Funker bare med webkit nettlesere */
 }
+
 .main-page-heading { 
   position: absolute; 
   top: 40%; left: 50%; 
@@ -69,19 +80,19 @@ li {
 .heading-intro { 
   text-align: center;
  }
+ 
 .oslomet-intro { 
   font-size: larger; 
   text-align: center;
   line-height: 2; 
   }
+
 .picture-link-campus { 
   display: flex; 
   flex-direction: column; 
   justify-content: center; 
 }
-/* * { 
-  box-sizing: border-box; 
-} */
+
 .card-campus { 
   padding: 0px 6px; 
  }
@@ -205,9 +216,6 @@ li {
   position: relative; 
   text-align: center; 
 }
-.row { 
-  display: flex;
- }
 
 .nav-topical a { 
   color: rgb(252, 252, 252); 
@@ -266,12 +274,7 @@ li {
   align-items: center; 
   border-radius: 30px; 
 }
-h4, h5 { 
-  font-size: x-large; 
-}
-h6 { 
-  font-size: large; 
-}
+
 .norske-leksikon { 
   width: 100px; 
   height: 100px; 
