@@ -2,6 +2,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: rgba(2, 2, 25, 0.918); 
   margin: 0px; 
+  font-size: 20px;
 }
 
 .wrapper {
@@ -14,8 +15,7 @@ img {
 }
 
 main { 
-  margin-left: 10px; 
-  margin-right: 10px; 
+  margin: 0 1rem 5rem;
   color: white; 
 }
 
@@ -49,6 +49,14 @@ li {
 }
 
 /* footer */
+
+footer .wrapper {
+  padding: 1rem 0 10rem;
+}
+
+footer .copyright {
+  font-size: 0.8rem;
+}
 
 .contact { 
   color: white; 
