@@ -12,6 +12,7 @@ body {
 h4, h5 { 
   font-size: x-large; 
 }
+
 h6 { 
   font-size: large; 
 }
@@ -29,6 +30,7 @@ main {
 ul { 
   list-style: none; 
 }
+
 li { 
   font-size: 30px; 
 }
@@ -49,6 +51,7 @@ li {
   padding-left: 20px; 
   text-decoration-line: unset; 
 }
+
 .image-information:hover { 
   color: chocolate; 
 }
