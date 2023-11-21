@@ -115,7 +115,8 @@ li {
 }
 
 .card-campus { 
-  padding: 0px 6px; 
+  padding: 6px; 
+  border-radius: 30%;
  }
 
 .gallery { 
@@ -326,16 +327,11 @@ li {
 .row { 
   display: flex;
   flex-direction: column;
-  margin: auto 0;
-}
-
-.row { 
-    display: flex;
-}  
+} 
 
 .row img {
-  height: 200px;
   border-radius: 50%;
+  width: 70%;
 }
 
 .image-campus {
@@ -353,7 +349,9 @@ li {
 .column { 
   flex: 1 1 0%; 
   padding: 5px; 
+  margin-left: 125px; */
 }
+
 .campus-container { 
   position: relative; 
   text-align: center; 
