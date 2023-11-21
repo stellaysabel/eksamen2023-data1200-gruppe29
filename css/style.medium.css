@@ -1,15 +1,75 @@
 @media (min-width: 768px) { /* Medium Screen */
   
+  .main-nav { 
+    overflow: hidden; 
+    margin-bottom: 2rem;
+  }
+  
+  .main-nav a { 
+    float: left;
+    color: rgb(173, 172, 172);
+    padding: 40px 0px 0px 30px;
+    text-decoration: none;
+    font-size: 2rem; 
+  }
+  
+  .main-nav a:hover { 
+    color: rgb(252, 252, 252);
+   }
+
   /* Homepage */
-  .picture-link-campus { 
-    flex-direction: row; 
+
+.oslomet-intro { 
+  font-size: larger; 
+  text-align: center;
+  line-height: 2; 
+  padding: 30px;
+}
+  
+.item-left-acessibility-intro {
+  flex: 70%;
+}
+
+.picture-link-campus { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
   }
 
-  .item-left-acessibility-intro {
-    flex: 70%;
-  }
+.card-campus { 
+  padding: 20px; 
+   }
 
+
+.gallery { 
+  border: 1px solid rgb(204, 204, 204);
+  width: 400px;
+}
+.container-block { 
+  display: flex; 
+  flex-direction: column; 
+  padding-top: 200px;
+  font-size: 30px;
+  text-align: center; 
+  width: 80%;
+  margin: 0 auto;
+}
+ 
   /* Topical */
+
+  .nav-topical a { 
+    color: rgb(252, 252, 252); 
+  }
+  .nav-topical a:hover { 
+    color: rgb(187, 185, 185); 
+  }
+
+  .grid-container { 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 50px; 
+    padding: 30px; 
+  }
   .fake-news { 
     height: 30vh;
   }
@@ -19,8 +79,41 @@
   }
 
   .topical-bilde {
-    width: 50%;
-    margin: 0 auto;
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .image-wrapper {
+    padding: 2rem;
+  }
+
+  /*Campus*/
+
+  .row { 
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
   }
   
+  .row img{
+    border-radius: 100%;
+    width: 50%;
+  }
+  
+  .image-campus {
+    width: 100%;
+    padding: 50px;
+  }
+  
+  .img-campus {
+    border-radius: 20%; 
+    width: 100%;
+  }
+
+  .column { 
+    flex: auto; 
+    padding: 10px; 
+  }
+
+  /*topical*/
 }
