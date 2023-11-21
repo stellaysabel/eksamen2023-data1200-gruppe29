@@ -265,6 +265,15 @@ li {
    padding: 10px; 
    color: aliceblue; 
 }
+.text-source { /* image description, image source*/
+  color: rgb(255, 255, 255); 
+  font-size:20px ; 
+  text-decoration-line: unset;
+}
+
+.text-source:hover { 
+  color: rgb(9, 79, 159) 
+}
 
 /* campus page */
 
