@@ -358,7 +358,7 @@ li {
 .column { 
   flex: 1 1 0%; 
   padding: 5px; 
-  margin-left: 125px; */
+  margin-left: 125px;
 }
 
 .campus-container { 
@@ -437,6 +437,7 @@ li {
 
 .accessibility-test1-right p {
   color: black;
+  line-height: 2;
 }
 
 .accessibility-test1-left {
@@ -452,4 +453,22 @@ li {
 .grid-image-right {
   width: 80%;
   margin: 0;
+}
+
+.text-accessibility{
+  padding: 30px;
+  border-radius: 40px;
+  background-color: #74bbbb;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  color: black;
+  line-height: 2;
+
+}
+.text-accessibility-top{
+  padding: 40px;
+}
+
+.text-accessibility-photo{
+  border-radius: 20px;
 }
