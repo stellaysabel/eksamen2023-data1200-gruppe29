@@ -78,13 +78,20 @@
     font-size: 50px;    
   }
 
+  .image-wrapper {
+    padding: 2rem;
+  }
+
   .topical-bilde {
     width: 60%;
     margin-left: 20%;
   }
 
-  .image-wrapper {
-    padding: 2rem;
+  .image-information { /* image description, image source*/
+    color: rgb(181, 181, 181); 
+    font-size: smaller; 
+    padding-left: 20%; 
+    text-decoration-line: unset; 
   }
 
   /*Campus*/
