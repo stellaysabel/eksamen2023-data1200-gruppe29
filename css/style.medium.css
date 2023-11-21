@@ -23,4 +23,8 @@
     margin: 0 auto;
   }
   
+  /* Campus */
+  .row {
+    flex-direction: row;
+  } 
 }
