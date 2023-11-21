@@ -190,6 +190,88 @@ li {
   justify-content: center; 
 }
 
+/* topcial page*/
+/* own navigation for topical for visability*/
+
+.nav-topical a { 
+  color: rgb(252, 252, 252); 
+}
+
+.nav-topical a:hover { 
+  color: rgb(187, 185, 185); 
+}
+
+.fake-news { 
+  background-image: url("../img/fakeNewsBakgrunn.jpeg"); 
+  background-size: cover; 
+  background-position: center center; 
+  height: 50vh; 
+  object-fit: cover; 
+  -webkit-mask-image: 
+  linear-gradient(black, transparent);
+ }
+
+ .grid-container { 
+  display: grid; 
+  grid-template-columns: 1fr; 
+  gap: 50px; 
+  padding: 0px; 
+}
+
+.fake-news-h1 { 
+  color: white; 
+  font-size: x-large;
+  text-align: center; 
+  padding-top: 10%; 
+}
+
+.fake-news-h2 { 
+  color: white; 
+  text-align: center; 
+  font-size: 30px; 
+  padding: 5%; 
+}
+
+.bilde-tekst-topical { 
+  padding: 40px; 
+  background-color: rgba(61, 81, 107, 0.38); 
+  border-radius: 30px; 
+  line-height: 2; 
+  font-size: 20px; 
+}
+
+.image-wrapper {
+  padding: 2rem;
+}
+
+.topical-bilde { 
+  height: auto; 
+  width: 100%; 
+  align-items: center; 
+  border-radius: 30px; 
+}
+
+.norske-leksikon { 
+  width: 100px; 
+  height: 100px; 
+  padding: 20px; 
+  background-color: rgba(255, 255, 255, 0.91);
+ }
+
+ .kilde-logo { 
+  width: 100px; 
+  height: 100px;
+ }
+
+ .kilder-styling { 
+  background-color: rgba(70, 70, 68, 0.176);
+   background-size: 100%; 
+   padding: 10px; 
+   color: aliceblue; 
+}
+
+/* campus page */
+
 .nav-campus { 
   background-color: rgba(32, 32, 44, 0); 
   overflow: hidden; 
@@ -246,6 +328,10 @@ li {
   line-height: 2;
   }
 
+.row { 
+    display: flex;
+}  
+
 .row img {
   height: 200px;
   border-radius: 50%;
@@ -261,10 +347,6 @@ li {
   width: 100%;
 }
 
-.row { 
-  display: flex;
- }
-
  .column { 
   flex: 1 1 0%; 
   padding: 5px; 
@@ -272,79 +354,6 @@ li {
 .campus-container { 
   position: relative; 
   text-align: center; 
-}
-
-.nav-topical a { 
-  color: rgb(252, 252, 252); 
-}
-.nav-topical a:hover { 
-  color: rgb(187, 185, 185); 
-}
-.fake-news { 
-  background-image: url("../img/fakeNewsBakgrunn.jpeg"); 
-  background-size: cover; 
-  background-position: center center; 
-  height: 50vh; 
-  object-fit: cover; 
-  -webkit-mask-image: 
-  linear-gradient(black, transparent);
- }
-.grid-container { 
-  display: grid; 
-  grid-template-columns: 1fr; 
-  gap: 50px; 
-  padding: 0px; 
-}
-.fake-news-h1 { 
-  color: white; 
-  font-size: x-large;
-  text-align: center; 
-  padding-top: 10%; 
-}
-
-.fake-news-h2 { 
-  color: white; 
-  text-align: center; 
-  font-size: 30px; 
-  padding: 5%; 
-}
-
-.bilde-tekst-topical { 
-  padding: 40px; 
-  background-color: rgba(61, 81, 107, 0.38); 
-  border-radius: 30px; 
-  line-height: 2; 
-  font-size: 20px; 
-}
-
-.image-wrapper {
-  padding: 2rem;
-}
-
-.topical-bilde { 
-  height: auto; 
-  width: 100%; 
-  align-items: center; 
-  border-radius: 30px; 
-}
-
-.norske-leksikon { 
-  width: 100px; 
-  height: 100px; 
-  padding: 20px; 
-  background-color: rgba(255, 255, 255, 0.91);
- }
-
- .kilde-logo { 
-  width: 100px; 
-  height: 100px;
- }
-
- .kilder-styling { 
-  background-color: rgba(70, 70, 68, 0.176);
-   background-size: 100%; 
-   padding: 10px; 
-   color: aliceblue; 
 }
 
 /* Accessibility style  */
