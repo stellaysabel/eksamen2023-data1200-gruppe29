@@ -50,7 +50,8 @@ li {
 
 /* footer */
 
-.contact { color: white; 
+.contact { 
+  color: white; 
   background-color: rgba(2, 2, 25, 0.23); 
 }
 
@@ -85,7 +86,7 @@ li {
   background-position: center center; 
   height: 100%; 
   object-fit: cover;
-  -webkit-mask-image: linear-gradient(black, transparent); /* Funker bare med webkit nettlesere */
+  -webkit-mask-image:linear-gradient(black, transparent); /* Funker bare med webkit nettlesere */
 }
 
 .main-page-heading { 
@@ -202,8 +203,7 @@ li {
   background-position: center center; 
   height: 50vh; 
   object-fit: cover; 
-  -webkit-mask-image: 
-  linear-gradient(black, transparent);
+  -webkit-mask-image:linear-gradient(black, transparent);
  }
 
  .grid-container { 
@@ -296,10 +296,9 @@ li {
 .background-image-campus { 
   background-image: url("../img/oslometcampus.jpg");
    background-size: cover; 
-   background-position: center center; 
+   background-position: center ; 
    height: 70vh; object-fit: cover; 
-   -webkit-mask-image: 
-   linear-gradient(black, transparent);
+   -webkit-mask-image: linear-gradient(black, transparent);
    }
 
 .header-campus {
@@ -337,12 +336,14 @@ li {
 .row img {
   height: 200px;
   border-radius: 50%;
-
-.image-campus {
-  width: 100%;
-  padding: 50px;
 }
 
+.image-campus {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
 
 .img-campus {
   border-radius: 20%; 
