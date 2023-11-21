@@ -70,9 +70,9 @@
   }
 
   /* Campus */
-  .row img {
-    height: 450px;
-  }  
+  .row {
+    flex-direction: row;
+  } 
 
   .topical-bilde {
     width: 100%;
