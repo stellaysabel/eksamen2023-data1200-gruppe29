@@ -33,6 +33,32 @@ li {
   font-size: 30px; 
 }
 
+/* css troughout all of the pages */
+
+.button { 
+  background-color: rgb(212, 245, 245); 
+  border-radius: 10px; 
+  padding: 20px 32px; 
+  text-decoration: none; 
+  font-size: 16px; 
+}
+
+.image-information { /* image description, image source*/
+  color: rgb(181, 181, 181); 
+  font-size: smaller; 
+  padding-left: 20px; 
+  text-decoration-line: unset; 
+}
+.image-information:hover { 
+  color: chocolate; 
+}
+
+/* footer */
+
+.contact { color: white; 
+  background-color: rgba(2, 2, 25, 0.23); 
+}
+
 /* main page navigation bar */
 .main-nav { 
   overflow: hidden; 
@@ -72,7 +98,6 @@ li {
   top: 40%; left: 50%; 
   transform: translate(-50%, -50%); 
   color: floralwhite; 
-  font-size: 50px; 
   font-family: Arial, Helvetica, sans-serif; 
   text-align: center; 
 }
@@ -105,12 +130,8 @@ li {
   border: 1px solid rgb(119, 119, 119);
  }
 
-.gallery img { 
-  width: 400px; 
-  height: 500px; 
-}
-
-.desc { 
+ 
+.image-description { 
   padding: 15px; 
   text-align: center;
  }
@@ -122,7 +143,7 @@ li {
   font-size: 30px;
   text-align: center; 
 }
-.item-left-a { 
+.item-left-accessibility { 
   display: flex; 
   flex-direction: column; 
   background-color: rgba(35, 35, 93, 0.357); 
@@ -131,7 +152,7 @@ li {
   padding: 50px; 
   justify-content: center; }
   
-.item-right-a { 
+.item-right-accessibility { 
   display: flex; 
   flex-direction: column; 
   background-color: rgba(147, 168, 172, 0.706); 
@@ -140,25 +161,11 @@ li {
   align-items: center; 
 }
 
-.item-right-a img { 
+.item-right-accessibility img { 
   padding-bottom: 50px; 
 }
 
-.button { 
-  background-color: rgb(212, 245, 245); 
-  border-radius: 10px; 
-  padding: 20px 32px; 
-  text-decoration: none; 
-  font-size: 16px; 
-}
-
-.item-right-f img { 
-  padding-bottom: 5px; 
-  height: auto; 
-  width: 100%; 
-}
-
-.item-right-f { 
+.item-right-fake-news { 
   display: flex; 
   flex-direction: column; 
   background-color: rgb(147, 168, 172); 
@@ -167,7 +174,13 @@ li {
   align-items: center; 
 }
 
-.item-left-f { 
+.item-right-fake-news img { 
+  padding-bottom: 5px; 
+  height: auto; 
+  width: 100%; 
+}
+
+.item-left-fake-news { 
   display: flex; 
   flex-direction: column; 
   background-color: rgba(35, 35, 93, 0.357); 
@@ -175,10 +188,6 @@ li {
   align-items: center; 
   padding: 50px; 
   justify-content: center; 
-}
-
-.contact { color: white; 
-  background-color: rgba(2, 2, 25, 0.23); 
 }
 
 .nav-campus { 
@@ -303,15 +312,7 @@ li {
   font-size: 30px; 
   padding: 5%; 
 }
-.image-information { 
-  color: rgb(181, 181, 181); 
-  font-size: smaller; 
-  padding-left: 20px; 
-  text-decoration-line: unset; 
-}
-.image-information:hover { 
-  color: chocolate; 
-}
+
 .bilde-tekst-topical { 
   padding: 40px; 
   background-color: rgba(61, 81, 107, 0.38); 
