@@ -5,8 +5,8 @@
   }
 
   main { 
-    margin: 0px 100px 15px; 
-    /*color: white; */
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .container-block { 
