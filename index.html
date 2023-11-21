@@ -1,4 +1,5 @@
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
@@ -9,27 +10,28 @@
 </head>
 
 <body>
-    <div class="main-page-container">
-        <div class="main-page-background"><!--Her ligger selve klassen bakgrunnsbildet i hjem siden-->
-            <nav class="main-nav"><!--Her ligger navigasjons baren som kobler seg til resten av sidene på nettsiden-->
-                <a href=".index.html">Home </a>
-                <a href="html/accessibility.html">Accessibility</a>
-                <a href="html/topical.html">Topical</a>
-                <a href="html/campus.html">Oslomet Campus</a>
-            </nav>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
-        </div>
+    <div class="main-page-background"><!--Her ligger selve klassen bakgrunnsbildet i hjem siden, gradient effekt: https://www.w3schools.com/css/tryit.asp?filename=trycss3_mask-image2 -->
+        <nav class="main-nav"><!--Her ligger navigasjons baren som kobler seg til resten av sidene på nettsiden-->
+            <a href=".index.html">Home </a>
+            <a href="html/accessibility.html">Accessibility</a>
+            <a href="html/topical.html">Topical</a>
+            <a href="html/campus.html">Oslomet Campus</a>
+        </nav>
+
     </div>
-    <a class="image-information" href="https://www.oslomet.no/studier/ny-student">Photo: Oslomet</a> <!--Her finner du lenken til bildet som er blitt brukt til bakgrunnsbildet-->
-    <div class="main-page-heading"><!--Her har vi en klasse for bare headingen sånn at det blir mylig å redigere i css-->
+     <!-- Link to an image source -->
+    <a class="image-information" href="https://www.oslomet.no/studier/ny-student">Photo: Oslomet</a> 
+      <!-- Heading for the main page -->
+    <div class="main-page-heading">
         <h1>OsloMet Campus</h1>
     </div>
-
-    <div class="wrapper"> <!--Dette er hoved boksen for paragrafene og bildene-->
+    <!-- Wrapper containing main content -->
+    <div class="wrapper"> 
         <main>
-            <div class="intro-container"><!--I denne boksen ligger alt intro informasjon om OsloMet som inneholder overskrift og en paragraf-->
-                <h2 class="heading-intro">ABOUT</h2>
-                <p class="oslomet-intro">
-                    <em><!--Vi har brukt <em> for å merke fremhevet tekst-->
+            <div class="intro-container"> <!-- Container for introductory information about OsloMet -->
+                <h2 class="heading-intro">ABOUT</h2><!-- Heading for the introduction -->
+                <p class="oslomet-intro"> <!-- Paragraph with information about OsloMet -->
+                    <em> <!-- Emphasized text for specific content -->
                     OsloMet, tidligere kjent som Høgskolen i Oslo og Akershus (HiOA), 
                     skiftet til universitetsstatus i 2018. Med hovedcampus plassert 
                     i Pilestredet på Bislett i Oslo, og en tilleggscampus på Kjeller i 
@@ -43,15 +45,16 @@
                     </em>
                 </p>
             </div>
-            <div class="picture-link-campus"><!--picture-link-campus er div boksen som kobler alle bildene nedenfor til-->
-                
-                <div class="card-campus"><!--card campus boksen gir padding-->
-                    <div class="gallery"><!--div box containing fist pictures under the "about" text-->
-                        <a target="_blank" href="html/campus.html"><!--Denne linken fører deg til campus siden-->
-                        <img src="img/datatorget 2.17.48 PM.jpg" alt="campus">
+
+            <div class="picture-link-campus"> <!-- Container for images and links related to the campus -->
+                <div class="card-campus"> <!-- Individual cards for campus-related images-->
+                    <div class="gallery"> <!-- Gallery containing the first campus-related image, each image is linked to a campus.html page  -->
+                        <a target="_blank" href="html/campus.html">
+                        <img src="img/datatorget 2.17.48 PM.jpg" alt="campus"><!-- Image related to the campus -->
                         </a>
-                        <a class="image-information" href="img/datatorget 2.17.48 PM.jpg">Photo: Ysabel</a><!--her finner du linken til bildet og hvem den ble tatt av-->
-                        <div class="desc">Computer lab</div><!--Her finner du hvor dette undertittelen til bildet -->
+                        <a class="image-information" href="img/datatorget 2.17.48 PM.jpg">Photo: Ysabel</a>  <!-- Information about the image -->
+                        <div class="desc"><em> Computer lab</em></div> <!-- Description related to the image -->
+
                     </div>
                 </div>
 
@@ -61,17 +64,18 @@
                         <img src="/img/cantine.jpg" alt="campus">
                     </a>
                     <a class="image-information" href="/img/cantine.jpg">Photo: Ysabel</a>
-                    <div class="desc">Cantine</div>
+                    <div class="desc"> <em> Cantinex</em></div>
                     </div>
                 </div>
                 
                 <div class="card-campus">
                     <div class="gallery">
                         <a target="_blank" href="html/campus.html">
-                        <img src="img/library.jpg" alt="campus">
+                            <img src="img/library.jpg" alt="campus">
                         </a>
                         <a class="image-information" href="img/library.jpg">Photo: Ysabel</a>
-                        <div class="desc">Library </div>
+                        <div class="desc"><em>Library </em></div>
+
                     </div>
                 </div>
             
@@ -86,6 +90,17 @@
                 
                 <div class="item-right-a">
                     <img class="size-mainpage"  src="img/acc.png" alt="A person in a wheelchair, a screen, an ipad and ap phone">
+
+
+            <div class="container-block"><!-- Container block for quotes and related images -->
+                <div class="item-left-a"><!-- Left item with a quote -->
+                    <p>"The power of the Web is in its universality [..] Access by everyone regardless of disability is an essential aspect."</p>  <!-- Quote related to web accessibility -->
+                    <a class="image-information" href="https://uwaterloo.ca/web-resources/resources/accessibility/basic-web-accessibility#:~:text=%E2%80%9CThe%20power%20of%20the%20Web,used%20aspects%20of%20web%20accessibility.">Sir Tim Berners-Lee</a><!-- Information and source related to the quote -->
+                </div>
+                <div class="item-right-a"><!-- Right item with an image and a button linked to accessibility page -->
+                    <img class="size-mainpage"  src="img/acc.png" alt="A person in a wheelchair, a screen, an ipad and ap phone"><!-- Image related to accessibility -->
+                    <a href="html/accessibility.html" class="button">Go to accessibility page</a> <!-- Button linking to the accessibility page -->
+
                 </div>
 
                 <a href="html/accessibility.html" class="button">Go to accessibility page</a>
@@ -93,11 +108,11 @@
             </div>
 
             <div class="container-block">
-                <div class="item-right-f">
+                <div class="item-right-fake-news">
                     <img class="size-mainpage"  src="img/fake-news.png" alt="hand holding phone with patterns in background" >
                     <a href="html/topical.html" class="button">Go to fake news page</a>
                 </div>
-                <div class="item-left-f">
+                <div class="item-left-fake-news">
                     <p>"Fake news and rumors thrive online because few verify what's real and always bias towards content that reinforces their own biases."</p>
                     <a class="image-information" href="https://www.brainyquote.com/quotes/ryan_higa_1089702?src=t_fake_news"> Ryan Higa</a>
                 </div>
@@ -106,8 +121,8 @@
 
         </main>
 
-        <footer class="contact">
-            <h3>Contact</h3>
+        <footer class="contact"> <!-- Footer section with contact information -->
+            <h3>Contact</h3> <!-- Heading for the footer section -->
             <p>gabal8187@oslomet.no</p>
             <p>naber1286@oslomet.no</p>
             <p>ahals6342@oslomet.no</p>

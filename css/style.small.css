@@ -5,15 +5,8 @@ body {
 }
 
 .wrapper {
-  max-width: 1400px;
+  max-width: 1800px;
   margin: 0 auto;
-}
-
-h4, h5 { 
-  font-size: x-large; 
-}
-h6 { 
-  font-size: large; 
 }
 
 img {
@@ -29,8 +22,37 @@ main {
 ul { 
   list-style: none; 
 }
+
 li { 
   font-size: 30px; 
+}
+
+/* css troughout all of the pages */
+
+.button { 
+  background-color: rgb(212, 245, 245); 
+  border-radius: 10px; 
+  padding: 20px 32px; 
+  text-decoration: none; 
+  font-size: 16px; 
+}
+
+.image-information { /* image description, image source*/
+  color: rgb(181, 181, 181); 
+  font-size: smaller; 
+  padding-left: 20px; 
+  text-decoration-line: unset; 
+}
+
+.image-information:hover { 
+  color: chocolate; 
+}
+
+/* footer */
+
+.contact { 
+  color: white; 
+  background-color: rgba(2, 2, 25, 0.23); 
 }
 
 /* main page navigation bar */
@@ -64,7 +86,7 @@ li {
   background-position: center center; 
   height: 100%; 
   object-fit: cover;
-  -webkit-mask-image: linear-gradient(black, transparent); /* Funker bare med webkit nettlesere */
+  -webkit-mask-image:linear-gradient(black, transparent); /* Funker bare med webkit nettlesere */
 }
 
 .main-page-heading { 
@@ -72,7 +94,6 @@ li {
   top: 40%; left: 50%; 
   transform: translate(-50%, -50%); 
   color: floralwhite; 
-  font-size: 50px; 
   font-family: Arial, Helvetica, sans-serif; 
   text-align: center; 
 }
@@ -105,12 +126,8 @@ li {
   border: 1px solid rgb(119, 119, 119);
  }
 
-.gallery img { 
-  width: 400px; 
-  height: 500px; 
-}
-
-.desc { 
+ 
+.image-description { 
   padding: 15px; 
   text-align: center;
  }
@@ -122,7 +139,7 @@ li {
   font-size: 30px;
   text-align: center; 
 }
-.item-left-a { 
+.item-left-accessibility { 
   display: flex; 
   flex-direction: column; 
   background-color: rgba(35, 35, 93, 0.357); 
@@ -131,7 +148,7 @@ li {
   padding: 50px; 
   justify-content: center; }
   
-.item-right-a { 
+.item-right-accessibility { 
   display: flex; 
   flex-direction: column; 
   background-color: rgba(147, 168, 172, 0.706); 
@@ -140,25 +157,11 @@ li {
   align-items: center; 
 }
 
-.item-right-a img { 
+.item-right-accessibility img { 
   padding-bottom: 50px; 
 }
 
-.button { 
-  background-color: rgb(212, 245, 245); 
-  border-radius: 10px; 
-  padding: 20px 32px; 
-  text-decoration: none; 
-  font-size: 16px; 
-}
-
-.item-right-f img { 
-  padding-bottom: 5px; 
-  height: auto; 
-  width: 100%; 
-}
-
-.item-right-f { 
+.item-right-fake-news { 
   display: flex; 
   flex-direction: column; 
   background-color: rgb(147, 168, 172); 
@@ -167,7 +170,13 @@ li {
   align-items: center; 
 }
 
-.item-left-f { 
+.item-right-fake-news img { 
+  padding-bottom: 5px; 
+  height: auto; 
+  width: 100%; 
+}
+
+.item-left-fake-news { 
   display: flex; 
   flex-direction: column; 
   background-color: rgba(35, 35, 93, 0.357); 
@@ -177,118 +186,33 @@ li {
   justify-content: center; 
 }
 
-.contact { color: white; 
-  background-color: rgba(2, 2, 25, 0.23); 
-}
-
-.nav-campus { 
-  background-color: rgba(32, 32, 44, 0); 
-  overflow: hidden; 
-  flex-direction: row; 
-  width: 100%; 
-  margin: 0px 50px 75px 0px; 
-}
-
-.nav-campus a { 
-  float: left; 
-  color: rgb(255, 252, 252); 
-  text-align: center; 
-  padding: 40px 0px 0px 30px; 
-  text-decoration: none; 
-  font-size: 1.5em; 
-}
-
-.nav-topical a:hover { 
-  color: rgb(206, 205, 205); 
-}
-
-.campus-container { 
-  position: relative; 
-  text-align: center;
- }
-
-.background-image-campus { 
-  background-image: url("../img/oslometcampus.jpg");
-   background-size: cover; 
-   background-position: center center; 
-   height: 70vh; object-fit: cover; 
-   -webkit-mask-image: 
-   linear-gradient(black, transparent);
-   }
-
-.header-campus {
-  padding: 20px;
-  text-align: center;
-} 
-
-.tekst-campus h2 {
-  text-align: center;
-}
-
-.tekst-campus p {
-  text-align: center;
-}
-
-.tekst-campus{
-  background-color: rgba(58, 58, 105, 0.337);
-  border-radius: 30px;
-  padding: 30px;
-  margin: 50px;
-  font-size: 20px;
-  line-height: 2;
-}
-
-.row { 
-  display: flex;
-  flex-direction: column;
-  margin: auto 0;
-}
-
-.row img{
-  border-radius: 100%;
-  width: 90%;
-}
-
-.image-campus {
-  width: 100%;
-  padding: 50px;
-}
-
-.img-campus {
-  border-radius: 20%; 
-  width: 100%;
-}
-
-.column { 
-  flex: 1 1 0%; 
-  padding: 5px; 
-}
-.campus-container { 
-  position: relative; 
-  text-align: center; 
-}
+/* topcial page*/
+/* own navigation for topical for visability*/
 
 .nav-topical a { 
   color: rgb(252, 252, 252); 
 }
+
 .nav-topical a:hover { 
   color: rgb(187, 185, 185); 
 }
+
 .fake-news { 
   background-image: url("../img/fakeNewsBakgrunn.jpeg"); 
   background-size: cover; 
   background-position: center center; 
   height: 50vh; 
   object-fit: cover; 
-  -webkit-mask-image: 
-  linear-gradient(black, transparent);
+  -webkit-mask-image:linear-gradient(black, transparent);
  }
-.grid-container { 
+
+ .grid-container { 
   display: grid; 
   grid-template-columns: 1fr; 
   gap: 50px; 
   padding: 0px; 
 }
+
 .fake-news-h1 { 
   color: white; 
   font-size: x-large;
@@ -302,15 +226,7 @@ li {
   font-size: 30px; 
   padding: 5%; 
 }
-.image-information { 
-  color: rgb(181, 181, 181); 
-  font-size: smaller; 
-  padding-left: 20px; 
-  text-decoration-line: unset; 
-}
-.image-information:hover { 
-  color: chocolate; 
-}
+
 .bilde-tekst-topical { 
   padding: 40px; 
   background-color: rgba(61, 81, 107, 0.38); 
@@ -347,6 +263,100 @@ li {
    background-size: 100%; 
    padding: 10px; 
    color: aliceblue; 
+}
+
+/* campus page */
+
+.nav-campus { 
+  background-color: rgba(32, 32, 44, 0); 
+  overflow: hidden; 
+  flex-direction: row; 
+  width: 100%; 
+  margin: 0px 50px 75px 0px; 
+}
+
+.nav-campus a { 
+  float: left; 
+  color: rgb(255, 252, 252); 
+  text-align: center; 
+  padding: 40px 0px 0px 30px; 
+  text-decoration: none; 
+  font-size: 1.5em; 
+}
+
+.nav-topical a:hover { 
+  color: rgb(206, 205, 205); 
+}
+
+.campus-container { 
+  position: relative; 
+  text-align: center;
+ }
+
+.background-image-campus { 
+  background-image: url("../img/oslometcampus.jpg");
+   background-size: cover; 
+   background-position: center ; 
+   height: 90vh; object-fit: cover; 
+   -webkit-mask-image: linear-gradient(black, transparent);
+   }
+
+.header-campus {
+  padding: 20px;
+  text-align: center;
+} 
+
+.tekst-campus h2 {
+  text-align: center;
+}
+
+.tekst-campus p {
+  text-align: center;
+}
+
+.tekst-campus{
+  background-color: rgba(58, 58, 105, 0.337);
+  border-radius: 30px;
+  padding: 30px;
+  margin: 50px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.row { 
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+
+.row { 
+    display: flex;
+}  
+
+.row img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.image-campus {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+
+.img-campus {
+  border-radius: 20%; 
+  width: 100%;
+}
+  
+.column { 
+  flex: 1 1 0%; 
+  padding: 5px; 
+}
+.campus-container { 
+  position: relative; 
+  text-align: center; 
 }
 
 /* Accessibility style  */
