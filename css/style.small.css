@@ -22,6 +22,7 @@ main {
 ul { 
   list-style: none; 
 }
+
 li { 
   font-size: 30px; 
 }
@@ -42,6 +43,7 @@ li {
   padding-left: 20px; 
   text-decoration-line: unset; 
 }
+
 .image-information:hover { 
   color: chocolate; 
 }
