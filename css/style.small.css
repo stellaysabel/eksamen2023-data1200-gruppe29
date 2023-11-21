@@ -38,14 +38,14 @@ li {
 }
 
 .image-information { /* image description, image source*/
-  color: rgb(181, 181, 181); 
+  color: rgb(181, 181, 181) !important; 
   font-size: smaller; 
   padding-left: 20px; 
   text-decoration-line: unset; 
 }
 
 .image-information:hover { 
-  color: chocolate; 
+  color: chocolate !important; 
 }
 
 /* footer */
@@ -125,21 +125,27 @@ footer .copyright {
 .card-campus { 
   padding: 6px; 
   width: 100%;
+  position: relative;
  }
 
-.gallery { 
-  border: 1px solid rgb(204, 204, 204);
+ .card-campus a {
+  color: #444;
  }
 
-.gallery:hover { 
-  border: 1px solid rgb(119, 119, 119);
+ .card-campus img:hover {
+  transform: scale(1.02); /* transfor the image */
  }
 
- 
 .image-description { 
   padding: 15px; 
   text-align: center;
- }
+  position: absolute; /* Positions absolutely to relative parent element  */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* https://medium.com/front-end-weekly/absolute-centering-in-css-ea3a9d0ad72e#502d */
+  background-color: white;
+  background-color: rgba(239, 237, 237, 0.8); /* background with 50% transparency */
+}
 
 .container-block { 
   display: flex; 
@@ -148,7 +154,7 @@ footer .copyright {
   font-size: 30px;
   text-align: center; 
 }
-.item-left-accessibility { 
+.item-content { 
   display: flex; 
   flex-direction: column; 
   background-color: rgba(35, 35, 93, 0.357); 
@@ -157,7 +163,7 @@ footer .copyright {
   padding: 50px; 
   justify-content: center; }
   
-.item-right-accessibility { 
+.item-image { 
   display: flex; 
   flex-direction: column; 
   background-color: rgba(147, 168, 172, 0.706); 
@@ -166,24 +172,8 @@ footer .copyright {
   align-items: center; 
 }
 
-.item-right-accessibility img { 
+.item-image img { 
   padding-bottom: 50px; 
-}
-
-.item-right-fake-news { 
-  display: flex; 
-  flex-direction: column; 
-  background-color: rgb(147, 168, 172); 
-  padding: 70px; 
-  flex: 1 1 50%; 
-  align-items: center; 
-}
-
-.item-right-fake-news img { 
-  padding-bottom: 5px; 
-  height: auto; 
-  width: 100%; 
-  margin-bottom: 2rem;
 }
 
 .item-left-fake-news { 
@@ -325,23 +315,6 @@ footer .copyright {
   text-align: center;
 } 
 
-.tekst-campus h2 {
-  text-align: center;
-}
-
-.tekst-campus p {
-  text-align: center;
-}
-
-.tekst-campus{
-  background-color: rgba(58, 58, 105, 0.337);
-  border-radius: 30px;
-  padding: 30px;
-  margin: 50px;
-  font-size: 20px;
-  line-height: 2;
-}
-
 .row { 
   display: flex;
   flex-direction: column;
@@ -360,7 +333,6 @@ footer .copyright {
 }
 
 .img-campus {
-  border-radius: 20%; 
   width: 100%;
 }
   
