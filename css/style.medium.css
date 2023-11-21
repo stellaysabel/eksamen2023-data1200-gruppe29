@@ -1,5 +1,5 @@
-@media (min-width: 768px) { /* Medium Screen */
-  
+/* Medium Screen */
+@media (min-width: 768px) {
   /* Homepage */
   .picture-link-campus { 
     flex-direction: row; 
@@ -17,12 +17,12 @@
   .fake-news-h1 { 
     font-size: 50px;    
   }
-
+  
   .topical-bilde {
     width: 50%;
     margin: 0 auto;
   }
-  
+
   /* Campus */
   .row {
     flex-direction: row;
