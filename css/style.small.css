@@ -308,6 +308,7 @@ li {
    }
 
 .header-campus {
+  padding: 20px;
   text-align: center;
 } 
 
@@ -326,7 +327,13 @@ li {
   margin: 50px;
   font-size: 20px;
   line-height: 2;
-  }
+}
+
+.row { 
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
 
 .row { 
     display: flex;
@@ -335,19 +342,19 @@ li {
 .row img {
   height: 200px;
   border-radius: 50%;
-}
 
 .image-campus {
-  width: 30%;
-  margin: 0 auto;
+  width: 100%;
+  padding: 50px;
 }
+
 
 .img-campus {
   border-radius: 20%; 
   width: 100%;
 }
-
- .column { 
+  
+.column { 
   flex: 1 1 0%; 
   padding: 5px; 
 }
