@@ -78,4 +78,14 @@
     width: 100%;
   }
 
+  .column {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .column img {
+    width: 100%;
+  }
+
 }
