@@ -116,7 +116,7 @@ li {
 
 .card-campus { 
   padding: 6px; 
-  border-radius: 30%;
+  width: 100%;
  }
 
 .gallery { 
@@ -175,6 +175,7 @@ li {
   padding-bottom: 5px; 
   height: auto; 
   width: 100%; 
+  margin-bottom: 2rem;
 }
 
 .item-left-fake-news { 
