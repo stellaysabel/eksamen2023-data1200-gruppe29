@@ -18,9 +18,17 @@
     height: 100vh;
   }
 
+  .main-page-heading {
+    font-size: 50px; 
+  }
+
   .intro-container { 
     padding: 150px;
    }
+
+  .gallery img {
+    height: 100%;
+  }
 
 
   /* Accessibility */
