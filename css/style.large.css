@@ -1,6 +1,7 @@
-@media (min-width: 992px) { /* Large Screen */
+/* Large Screen */
+@media (min-width: 992px) { 
  
-  .main-nav a {
+  .main-nav a { /* makes font size bigger on wider screen */
     font-size: 1.5rem;
   }
 

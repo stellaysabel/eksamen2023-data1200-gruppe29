@@ -2,11 +2,12 @@
 @media (min-width: 768px) {
 
   .main-nav a { 
-    padding: 1rem 0 0 3rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
   }
 
-  .container-block {
-    margin: 80px;
+  .container-block { /* Gives margin around the container on screens bigger than 768px. */
+    margin: 80px; 
   }
 
   .picture-link-campus {
@@ -16,7 +17,7 @@
 
   /* Homepage */
   .main-page-background {
-    height: 100%;
+    height: 100%; /* background troughout the whole page on bigger screen */
   }
 
   .main-page-heading {
@@ -28,7 +29,7 @@
     padding-top: 10rem;
   }
 
-  .picture-link-campus { 
+  .picture-link-campus { /* shows the pictures on a row instead of column on wider screens */
     flex-direction: row; 
   }
 
