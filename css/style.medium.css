@@ -67,6 +67,10 @@
   }
   
   /* Topical */
+.grid-container{
+  padding: 80px;
+}
+
   .fake-news { 
     height: 30vh;
   }
