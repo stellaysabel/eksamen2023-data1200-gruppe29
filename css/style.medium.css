@@ -4,6 +4,16 @@
   .main-nav a { 
     padding: 1rem 0 0 3rem;
   }
+
+  .container-block {
+    margin: 80px;
+  }
+
+  .picture-link-campus {
+     margin-left: 80px;
+     margin-right: 80px;
+  }
+
   /* Homepage */
   .main-page-background {
     height: 100%;
@@ -30,9 +40,22 @@
   .item-left-acessibility-intro {
     flex: 70%;
   }
+
+  .main-accessibility-img {
+    margin: 100px;
+  }
+
+  .item-right-accessibility-intro {
+    padding-right: 140px;
+  }
+
+  .accessibility-test1 {
+    margin: 80px;
+  }
   
   .accessibility-test1-left {
     margin-right: 5%;
+    margin-top: 50px;
   }
 
   .accessibility-test1-right {

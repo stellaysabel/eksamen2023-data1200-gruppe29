@@ -322,6 +322,12 @@ footer .copyright {
   text-align: center;
 } 
 
+.card-campus-page {
+  padding: 6px; 
+  width: 100%;
+  position: relative;
+}
+
 .tekst-campus h2 {
   text-align: center;
 }
@@ -331,7 +337,6 @@ footer .copyright {
 }
 
 .tekst-campus{
-  background-color: rgba(58, 58, 105, 0.337);
   border-radius: 30px;
   padding: 30px;
   font-size: 20px;
