@@ -451,6 +451,11 @@ footer .copyright {
   padding: 0;
   flex: 45%;
 }
+.accessibility-test1-left p {
+  color: black;
+  line-height: 2;
+}
+
 
 .accessibility-test1-left img {
   width: 100%;
