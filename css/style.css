@@ -103,7 +103,7 @@ body {
   
   /* index page style*/
    .main-page-background { 
-    background-image: url("/img/photoeditoroslomet.jpg");
+    background-image: url("../img/photoeditoroslomet.jpg");
     background-size: cover; 
     background-position: center center; 
     height: 50%; 
