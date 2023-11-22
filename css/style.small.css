@@ -38,6 +38,10 @@ li {
   margin: 0 auto;
 }
 
+.button:hover{
+  background-color: aqua;
+}
+
 .image-information { /* image description, image source*/
   color: rgb(181, 181, 181) !important; 
   padding-left: 20px; 
