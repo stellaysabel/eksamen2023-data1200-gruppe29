@@ -50,17 +50,19 @@ li {
 
 /* footer */
 
+footer {
+  color: white; 
+  background-color: rgba(2, 2, 25, 0.23); 
+  margin-top: 2rem;
+}
+
 footer .wrapper {
   padding: 1rem 0 10rem;
 }
 
 footer .copyright {
   font-size: 0.8rem;
-}
-
-.contact { 
-  color: white; 
-  background-color: rgba(2, 2, 25, 0.23); 
+  margin-left: 1rem;
 }
 
 /* main page navigation bar */
@@ -72,7 +74,7 @@ footer .copyright {
 .main-nav a { 
   float: left;
   color: rgb(173, 172, 172);
-  padding: 40px 0px 0px 30px;
+  padding: 1rem 0 0 1rem;
   text-decoration: none;
   font-size: 1rem; 
 }
@@ -85,6 +87,7 @@ footer .copyright {
  .inner-page nav {
   border-bottom: 1px solid white;
   padding-bottom: 1rem;
+  margin-bottom: 4rem;
 }
 
 /* index page style*/
@@ -92,14 +95,14 @@ footer .copyright {
   background-image: url("../img/photoeditoroslomet.jpg");
   background-size: cover; 
   background-position: center center; 
-  height: 100%; 
+  height: 50%; 
   object-fit: cover;
   -webkit-mask-image:linear-gradient(black, transparent); /* Funker bare med webkit nettlesere */
 }
 
 .main-page-heading { 
   position: absolute; 
-  top: 40%; left: 50%; 
+  top: 30%; left: 50%; 
   transform: translate(-50%, -50%); 
   color: floralwhite; 
   font-family: Arial, Helvetica, sans-serif; 
@@ -111,10 +114,10 @@ footer .copyright {
  }
  
 .oslomet-intro { 
-  font-size: larger; 
+  font-size: 1.2rem; 
   text-align: center;
   line-height: 2; 
-  }
+}
 
 .picture-link-campus { 
   display: flex; 
@@ -150,10 +153,15 @@ footer .copyright {
 .container-block { 
   display: flex; 
   flex-direction: column; 
-  padding-top: 200px;
-  font-size: 30px;
+  padding-top: 3rem;
+  font-size: 2rem;
   text-align: center; 
 }
+
+.campus-page .container-block { 
+  font-size: 1.4rem;
+}
+
 .item-content { 
   display: flex; 
   flex-direction: column; 
@@ -326,7 +334,6 @@ footer .copyright {
   background-color: rgba(58, 58, 105, 0.337);
   border-radius: 30px;
   padding: 30px;
-  margin: 50px;
   font-size: 20px;
   line-height: 2;
 }
@@ -398,6 +405,10 @@ footer .copyright {
   color: white;
 }
 
+.introduction-accessibility {
+  margin-bottom: 4rem;
+}
+
 .introduction-accessibility p {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -408,23 +419,22 @@ footer .copyright {
 .main-accessibility-img img {
   width: 100%;
   border-radius: 40px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .accessibility-test1 {
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 2rem;
   border-radius: 40px;
   background-color: #74bbbb;
+  color: black;
+  margin-bottom: 2rem;
 }
  
 .accessibility-test1-right {
   flex: 50%;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-right: 40px;
   align-items: center;
 }
 
@@ -439,10 +449,11 @@ footer .copyright {
 
 .accessibility-test1-left {
   padding: 0;
+  flex: 45%;
 }
 
 .accessibility-test1-left img {
-  width: 80%;
+  width: 100%;
   padding: 0;
   border-radius: 40px;
 }

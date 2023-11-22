@@ -10,7 +10,7 @@
     <title>Campus</title>  <!-- Title of the page -->
 </head>
 
-<body>
+<body class="campus-page">
     <section class="campus-container"> <!-- Main container for the Campus page -->
         <div class="background-image-campus"><!-- Background container for the campus page -->
             <nav class="main-nav nav-topical"><!-- Navigation bar containing links to different pages -->
@@ -37,11 +37,30 @@
                 flourish. Faculty and staff, dedicated to academic brilliance, guide students on their educational
                 journeys, inspiring them to make meaningful contributions to their fields and the world at large.
                 OsloMet isn't just an institution; it's a catalyst for tomorrow's leaders and changemakers</p>
+            
+                <div class="picture-link-campus"> <!-- Container for images and links related to the campus -->
+                <div class="card-campus"> <!-- Individual cards for campus-related images-->
+                    <img src="../img/sirkelkantine1.jpg" alt="Dette er første etajsen i bygget p35"> <!-- Image related to the campus -->
+                </div>
+    
+                <div class="card-campus">
+                    <img src="../img/sirkelkantine2.jpg"
+                    alt="Dette er et bildet rettet mot vinduene i første etasje i bygg p35">
+                </div>
+                
+                <div class="card-campus">
+                    <img src="../img/sirkelkantine3.jpg"
+                        alt="Dette er et bildet som viser fram hvor studentene sitter i kantinen i bygg p35">
+                </div>
+            </div>
+
         </div>
 
-        <div class="row"><!--section displaying the circular images-->
-            <div class="column"> <!--images in row are placed in individual div boxes-->
-                <img src="../img/sirkelkantine1.jpg" alt="Dette er første etajsen i bygget p35"> <!-- Image related to the campus -->
+        
+        <!--
+        <div class="row">
+            <div class="column"> 
+                <img src="../img/sirkelkantine1.jpg" alt="Dette er første etajsen i bygget p35"> 
             </div>
             <div class="column">
                 <img src="../img/sirkelkantine2.jpg"
@@ -52,10 +71,11 @@
                     alt="Dette er et bildet som viser fram hvor studentene sitter i kantinen i bygg p35">
             </div>
         </div>
+        -->
 
-        <div class="container-block"><!-- Container block for quotes and related images -->
+        <div id="cantine-anchor" class="container-block"><!-- Container block for quotes and related images -->
             <div class="item-content"><!-- Left item with a quote -->
-                <h2 id="cantine-anchor">The cantine in P35</h2><!-- Title for the cantina section -->
+                <h2>The cantine in P35</h2><!-- Title for the cantina section -->
                 <p>OsloMet, formerly known as the Oslo and Akershus University College (HiOA), is a leading university in
                     Norway, and Pilestredet 35 is one of their central hubs.
                     Inside P35, you'll find several essential areas that make up the pulse of the campus.</p>
@@ -81,13 +101,13 @@
         </div>
 
 
-        <div class="container-block"><!-- Container block for quotes and related images -->
+        <div  id="library-anchor" class="container-block"><!-- Container block for quotes and related images -->
             <div class="item-image"><!-- Right item with an image and a button linked to accessibility page -->
                 <img src="../img/library.jpg" alt="Dette er biblioteket i tredje etsaje i bygg p35" class="img-campus">
                 <a class="image-information" href="../img/library.jpg">Photo: Ysabel</a>
             </div>
             <div class="item-content"><!-- Left item with a quote -->
-                <h2 id="library-anchor">The library in P35 </h2> <!-- Title for the library section -->
+                <h2>The library in P35 </h2> <!-- Title for the library section -->
             <p>The library stands as an academic sanctuary, a repository of boundless knowledge and an oasis for
                 inquisitive minds.
                 It's not merely a collection of books but an ensemble of digital archives, scholarly journals, and
@@ -106,9 +126,9 @@
             </div>
         </div>
 
-        <div class="container-block"><!-- Container block for quotes and related images -->
+        <div id="computerlab-anchor" class="container-block"><!-- Container block for quotes and related images -->
             <div class="item-content"><!-- Left item with a quote -->
-                <h2 id="computerlab-anchor">The computer lab in P35</h2> <!-- Title for the computer lab section -->
+                <h2>The computer lab in P35</h2> <!-- Title for the computer lab section -->
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, sit inventore,
                     a accusamus totam deleniti, dolorum in reiciendis neque nisi odit. Asperiores
                     itaque ipsa dolorem? Molestias eius quaerat aperiam commodi temporibus consequuntur
@@ -125,7 +145,7 @@
 
     </main>
 
-    <footer class="contact"> <!-- Footer section with contact information -->
+    <footer> <!-- Footer section with contact information -->
         <div class="wrapper">
             <p class="copyright">© 2023 Oslomet</p>
         </div>
