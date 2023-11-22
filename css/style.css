@@ -48,6 +48,7 @@ body {
   .image-information { /* image description, image source*/
     color: rgb(181, 181, 181) !important; 
     padding-left: 20px; 
+    padding-bottom: 40px;
     text-decoration-line: unset; /* Removing default text decoration */
     font-size: 20px;
     align-items: start;
@@ -72,6 +73,7 @@ body {
   footer .copyright {
     font-size: 0.8rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   
   /* main page navigation bar */
@@ -83,7 +85,7 @@ body {
   .main-nav a { 
     float: left;/* Aligning navigation links to the left */
     color: rgb(173, 172, 172);
-    padding: 1rem 0 0 1rem;
+    padding: 1rem 0 0 10rem;
     text-decoration: none;
     font-size: 1rem; 
   }
@@ -258,31 +260,13 @@ body {
     padding: 2rem;
   }
   
-  .topical-bilde { 
+  .topical-pictures { 
     height: auto; 
     width: 100%; 
     align-items: center; 
     border-radius: 30px; 
   }
   
-  .norske-leksikon { 
-    width: 100px; 
-    height: 100px; 
-    padding: 20px; 
-    background-color: rgba(255, 255, 255, 0.91);/* Set background color with opacity */
-   }
-  
-   .kilde-logo { 
-    width: 100px; 
-    height: 100px;
-   }
-  
-   .kilder-styling { 
-    background-color: rgba(70, 70, 68, 0.176);
-     background-size: 100%; 
-     padding: 10px; 
-     color: aliceblue; 
-  }
   .text-source { /* image description, image source*/
     color: rgb(255, 255, 255); 
     font-size:20px ; 
