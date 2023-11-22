@@ -229,7 +229,7 @@ body {
     display: grid; /* Use grid layout */
     grid-template-columns: 1fr; /* Set grid columns */
     gap: 50px; /* Set gap between grid items */
-    padding: 0px; 
+    padding: 20px; 
   }
   
   .fake-news-h1 { 
