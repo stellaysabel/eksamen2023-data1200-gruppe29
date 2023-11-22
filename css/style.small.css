@@ -35,13 +35,15 @@ li {
   padding: 20px 32px; 
   text-decoration: none; 
   font-size: 16px; 
+  margin: 0 auto;
 }
 
 .image-information { /* image description, image source*/
   color: rgb(181, 181, 181) !important; 
-  font-size: smaller; 
   padding-left: 20px; 
   text-decoration-line: unset; 
+  font-size: 20px;
+  align-items: start;
 }
 
 .image-information:hover { 
@@ -177,7 +179,7 @@ footer .copyright {
   background-color: rgba(147, 168, 172, 0.706); 
   padding: 70px; 
   flex: 1 1 50%; 
-  align-items: center; 
+  align-items: flex-start; 
 }
 
 .item-image img { 
@@ -433,8 +435,8 @@ footer .copyright {
   flex-direction: column;
   padding: 2rem;
   border-radius: 40px;
-  background-color: #74bbbb;
-  color: black;
+  background-color:rgba(58, 58, 105, 0.337);
+  color: white;
   margin-bottom: 2rem;
 }
  
@@ -444,11 +446,11 @@ footer .copyright {
 }
 
 .accessibility-test1-right h2 {
-  color: black;
+  color: white;
 }
 
 .accessibility-test1-right p {
-  color: black;
+  color: white;
   line-height: 2;
 }
 
@@ -456,6 +458,11 @@ footer .copyright {
   padding: 0;
   flex: 45%;
 }
+.accessibility-test1-left p {
+  color: white;
+  line-height: 2;
+}
+
 
 .accessibility-test1-left img {
   width: 100%;
@@ -471,10 +478,10 @@ footer .copyright {
 .text-accessibility{
   padding: 30px;
   border-radius: 40px;
-  background-color: #74bbbb;
+  background-color: rgba(58, 58, 105, 0.337);
   margin-top: 40px;
   margin-bottom: 100px;
-  color: black;
+  color: white;
   line-height: 2;
 
 }
