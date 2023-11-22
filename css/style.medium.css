@@ -1,14 +1,47 @@
 /* Medium Screen */
 @media (min-width: 768px) {
+
+  .main-nav a { 
+    padding: 1rem 0 0 3rem;
+  }
   /* Homepage */
+  .main-page-background {
+    height: 100%;
+  }
+
+  .main-page-heading {
+    position: absolute;
+    top: 40%;
+  }
+
+  .container-block { 
+    padding-top: 10rem;
+  }
+
   .picture-link-campus { 
     flex-direction: row; 
   }
 
+  .oslomet-intro { 
+    font-size: 1.4rem; 
+  }
+
+  /* Accessibility */
   .item-left-acessibility-intro {
     flex: 70%;
   }
+  
+  .accessibility-test1-left {
+    margin-right: 5%;
+  }
 
+  .accessibility-test1-right {
+    flex: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 40px;
+  }
+  
   /* Topical */
   .fake-news { 
     height: 30vh;
@@ -27,4 +60,9 @@
   .row {
     flex-direction: row;
   } 
+
+  .tekst-campus p {
+    margin: 50px 20rem;
+  }
+
 }

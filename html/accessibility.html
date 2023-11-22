@@ -18,7 +18,7 @@
         <a href="../html/campus.html">Oslomet Campus</a>
     </nav>
 
-    <main class="wrapper"><!-- Main container for the page content -->
+    <div class="wrapper"><!-- Main container for the page content -->
     
         <section class="introduction-accessibility"> <!-- Section for the introduction to accessibility -->
             <div class="item-left-acessibility-intro"> <!-- Left item with accessibility introduction -->
@@ -46,10 +46,26 @@
                     <h2>Our Accessibility Test</h2> <!-- Title and paragraph explaining accessibility test improvements -->
                     <p>After connecting our website to the accessibility test, we identified two alerts: "A nearby image has the same alternative text." The alt for all images was set to "campus." In order to enhance the accessibility for individuals who cannot read or see, we have replaced the generic alternative text with more descriptive options, making it better when using the text-to-speech. This update has been applied to all of our images. Now the only alerts are the photo images, which are from the same source.</p>
                 </div>
-
             </section>
+
+            <section class="accessibility-test1">  <!-- Section explaining accessibility test results -->
+                <div class="accessibility-test1-left"> <!-- Left side with an image -->
+                    <h3>Accesibility Testing explained</h3>
+                    <p>An automated test evaluates a website's usability and accessibility for all users, including those with disabilities, by analyzing several features of the site. The test looks for things like the design's responsiveness, consistent design, error handling, link descriptions, etc. The automated test ensures that websites are accessible to users of all abilities by looking at these points, helping to create a more inclusive digital environment.  
+                    <p>When embarking on the development of our website, we adopted a strategic approach to crafting the CSS, opting to initially focus on the display for mobile phones ( this is display in the photos underneath). This deliberate choice was driven by the rationale that commencing at the smallest screen size would provide a solid foundation before progressively scaling up to accommodate larger devices, such as tablets (e.g., iPad) and desktop computers. </p>
+                    <p>Drawing inspiration from contemporary web design practices, a notable example being the website vilbli.no, we recognized the efficiency and effectiveness of starting with the mobile display. By doing so, we aimed to streamline the development process, ensuring a seamless and responsive user experience across various devices. </p>
+                    <p>This methodology enables us to prioritize the mobile user experience, acknowledging the widespread use of smartphones for web browsing. Once the mobile layout is finely tuned, we intend to employ media queries to systematically enhance and optimize the presentation of content for larger screens </p>
+                    <p>This meticulous and iterative approach not only aligns with industry best practices but also reflects a commitment to user-centric design. As we progress through the development stages, the adaptability of our design will be a key consideration, ensuring that our website remains visually appealing and functional across the diverse landscape of devices utilized by our audience so worries such as readability or scaling is not a problem for our users for example the text will not go through the how screen but stay in a spesific area.</p>
+                </div>
+                <div class="accessibility-test1-right"> <!-- Right side with text about the test -->
+                    <img src="../img/row.png" alt="the media query usage on the class row" class="text-accessibility-photo">
+                    <img src="../img/row-media.png" alt="" class="text-accessibility-photo">
+                 </div>
+            </section>
+
+            <!--
             <section class="text-accessibility">
-                <div class="text-accessibility-top">  <!-- Section explaining more about accessibility testing -->
+                <div class="text-accessibility-top"> 
                     <h3>Accesibility Testing explained</h3>
                     <p>An automated test evaluates a website's usability and accessibility for all users, including those with disabilities, by analyzing several features of the site. The test looks for things like the design's responsiveness, consistent design, error handling, link descriptions, etc. The automated test ensures that websites are accessible to users of all abilities by looking at these points, helping to create a more inclusive digital environment.  
                     <p>When embarking on the development of our website, we adopted a strategic approach to crafting the CSS, opting to initially focus on the display for mobile phones ( this is display in the photos underneath). This deliberate choice was driven by the rationale that commencing at the smallest screen size would provide a solid foundation before progressively scaling up to accommodate larger devices, such as tablets (e.g., iPad) and desktop computers. </p>
@@ -59,14 +75,17 @@
                     <p>This methodology enables us to prioritize the mobile user experience, acknowledging the widespread use of smartphones for web browsing. Once the mobile layout is finely tuned, we intend to employ media queries to systematically enhance and optimize the presentation of content for larger screens </p>
                     <p>This meticulous and iterative approach not only aligns with industry best practices but also reflects a commitment to user-centric design. As we progress through the development stages, the adaptability of our design will be a key consideration, ensuring that our website remains visually appealing and functional across the diverse landscape of devices utilized by our audience so worries such as readability or scaling is not a problem for our users for example the text will not go through the how screen but stay in a spesific area.</p>
                 </div>
-        </section>
-        </main>
+            </section>
+            -->
 
-        <footer class="contact"> <!-- Footer section with contact information -->
-            <div class="wrapper">
-                <p class="copyright">© 2023 Oslomet</p>
-            </div>
-        </footer>  
-    </main>
+        </main>
+    </div>
+
+    <footer> <!-- Footer section with contact information -->
+        <div class="wrapper">
+            <p class="copyright">© 2023 Oslomet</p>
+        </div>
+    </footer> 
+
 </body>
 </html>
