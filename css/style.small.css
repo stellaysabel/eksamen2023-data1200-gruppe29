@@ -307,11 +307,12 @@ footer .copyright {
   text-decoration: none; 
   font-size: 1.5em; 
 }
-
+/*hover effect on navigation bar*/
 .nav-topical a:hover { 
   color: rgb(206, 205, 205); 
 }
 
+/**/
 .campus-container { 
   position: relative; 
   text-align: center;
@@ -403,7 +404,7 @@ footer .copyright {
 
 .item-right-accessibility-intro img {
   width: 100%;
-  border-radius: 40px; /* https://ianrmedia.unl.edu/resources/rounded-corners-images#:~:text=The%20CSS%20property%20border%2Dradius,an%20oval%20or%20a%20circle. */ 
+  border-radius: 40px; /* rounded conrners for images */ 
 }
 
 .introduction-accessibility h1 {
